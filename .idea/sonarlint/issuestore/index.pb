@@ -68,3 +68,17 @@ S
 #app/controllers/LoginController.php,d\5\d510a89867b4fd29ec2a71e986620ee680844556
 U
 %app/controllers/AddUserController.php,0\0\003d1b2aa8d0a66b818591fe27216ae2acc96f34
+S
+#app/repositories/UserRepository.php,9\3\93095e6fa25a2d3fb64a8d0030dc6426c9435ad4
+O
+app/repositories/Repository.php,7\1\71fd6e7ac4fbf91ae0809f5720740e19086158e7
+R
+"app/public/Javascript/Monopoly.php,0\5\05f423e0ba01e58e14c2eb11fca9914dbf377bd8
+Q
+!app/public/Javascript/Monopoly.js,d\f\df66d4e4782a1045272d7403232673fa1b0d4b9e
+C
+app/error/error.log,c\d\cde18565841b95a9b5856f4aa9e6bf7c4177376a
+B
+app/views/home.php,3\a\3aa877c2668fbed84c66e172d152c25e51f02e6c
+R
+"app/controllers/HomeController.php,9\b\9bb6e8444935035f8d62e909e1eab3f721034864
