@@ -64,3 +64,5 @@ Q.idea/sonarlint/securityhotspotstore/f/0/f0a7d100aa6b527d3452ab491902328094ae6e
 Q.idea/sonarlint/securityhotspotstore/b/2/b237dce4c8a76d56b7cdfe507e61f82336214311,6\a\6af3043d424a2a2e69aa21a7f214f664c15d17b3
 w
 G.idea/sonarlint/issuestore/b/2/b237dce4c8a76d56b7cdfe507e61f82336214311,9\c\9ce68e0bf32070f71c3ce15cbbdbfba648a1c1a2
+S
+#app/controllers/LoginController.php,d\5\d510a89867b4fd29ec2a71e986620ee680844556

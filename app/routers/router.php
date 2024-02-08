@@ -1,5 +1,5 @@
 <?php
-class Router
+class router
 {
     public function route($uri)
     {
@@ -8,42 +8,10 @@ class Router
 
         switch ($uri) {
             case '':
-            case 'homepage':
-                require __DIR__ . "/../controllers/UserController.php";
-                $controller = new UserController();
-                $controller->displayHomePage();
-                break;
-            case 'homepage/login':
-                require __DIR__ . '/../Controllers/LoginController.php';
-                $userRepository = new UserRepository();
-                $userService = new UserService($userRepository);
-                $controller = new LoginController($userService);
+            case 'login':
+                require __DIR__ . "/../controllers/LoginController.php";
+                $controller = new LoginController();
                 $controller->displayLoginPage();
-                break;
-            case 'homepage/login/register':
-                require __DIR__ . '/../Controllers/RegisterUserController.php';
-                $controller=new RegisterUserController();
-                $controller->displayRegisterUserPage();
-                break;
-            case 'homepage/myAds':
-                require __DIR__ . '/../Controllers/MyAdsController.php';
-                $controller = new MyAdsController();
-                $controller->displayMyAdsPage();
-                break;
-            case 'homepage/mypurchases':
-                require __DIR__ . '/../Controllers/MyPurchasesController.php';
-                $controller = new MyPurchasesController();
-                $controller->displayMyPurchasesPage();
-                break;
-            case 'homepage/shoppingCart':
-                require_once __DIR__ . '/../Controllers/ShoppingCartController.php';
-                $controller = new ShoppingCartController();
-                $controller->displayShoppingCartPage();
-                break;
-            case 'homepage/shoppingCart/payment':
-                require __DIR__ . '/../Controllers/PaymentController.php';
-                $controller = new PaymentController();
-                $controller->displayPaymentPage();
                 break;
             case 'api/adsapi':
                 require __DIR__ . '/../API/AdsController.php';

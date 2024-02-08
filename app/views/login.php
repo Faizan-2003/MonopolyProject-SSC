@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -11,3 +12,16 @@
 <form action="info.txt" method="post" class="AddUserForm">
 
     <section class="UserLogin">
+        <label for="username">You Poppet: </label>
+        <input type="text" id="username" name="username" required>
+    </section>
+
+
+
+    <section class="submit-button">
+        <input type="submit" value="submit" id="submit">
+    </section>
+</form>
+</body>
+
+</html>
