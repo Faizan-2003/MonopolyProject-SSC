@@ -66,3 +66,5 @@ w
 G.idea/sonarlint/issuestore/b/2/b237dce4c8a76d56b7cdfe507e61f82336214311,9\c\9ce68e0bf32070f71c3ce15cbbdbfba648a1c1a2
 S
 #app/controllers/LoginController.php,d\5\d510a89867b4fd29ec2a71e986620ee680844556
+U
+%app/controllers/AddUserController.php,0\0\003d1b2aa8d0a66b818591fe27216ae2acc96f34

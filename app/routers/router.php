@@ -13,6 +13,11 @@ class router
                 $controller = new LoginController();
                 $controller->displayLoginPage();
                 break;
+            case 'adduser':
+                require __DIR__ . "/../controllers/AddUserController.php";
+                $controller = new AddUserController();
+                $controller->displayAddUserPage();
+                break;
             case 'api/adsapi':
                 require __DIR__ . '/../API/AdsController.php';
                 $controller = new AdsController();

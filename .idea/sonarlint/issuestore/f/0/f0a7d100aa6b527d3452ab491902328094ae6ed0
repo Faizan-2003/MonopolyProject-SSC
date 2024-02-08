@@ -1,2 +1,4 @@
 
 :php:S113"'Add a new line at the end of this file.8³Ş¥ËØ1
+B	php:S2003	"&Replace "include" with "include_once".(Š¾‹É8Â¦ÿÎØ1
+h	php:S4833	"LReplace "include" with namespace import mechanism through the "use" keyword.(Š¾‹É8Â¦ÿÎØ1

@@ -6,6 +6,6 @@ class LoginController{
     }
     public function displayLoginPage(): void
     {
-            require __DIR__ . "/../Views/login.php";
+        require __DIR__ . "/../Views/login.php";
     }
 }
