@@ -16,5 +16,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Example: Display a message
         message.innerText = 'User added successfully!';
+
+        // Redirect to home.php
+        window.location.href = '/home';
     });
 });

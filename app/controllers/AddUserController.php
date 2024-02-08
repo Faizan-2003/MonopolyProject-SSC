@@ -24,7 +24,7 @@ class AddUserController {
 
                 if ($success) {
                     // Redirect to the home page after adding the user
-                    header('Location: home.php');
+                    header('Location: /home.php');
                     exit();
                 }
             } else {
