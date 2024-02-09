@@ -11,5 +11,9 @@ class UserService {
     public function addUser(string $userName, string $gameName) {
         $this->userRepository->addUser($userName, $gameName);
     }
+
+    public function findPoppetByUsername($username) {
+        return $this->userRepository->findPoppetByUsername($username);
+    }
 }
 ?>

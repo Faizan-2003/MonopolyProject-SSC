@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', function() {
         var name = document.getElementById('name').value;
         var poppet = document.getElementById('poppet').value;
 
-        // Perform validation or other logic here
 
         // Example: Display a message
         message.innerText = 'User added successfully!';
