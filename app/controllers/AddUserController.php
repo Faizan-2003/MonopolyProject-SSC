@@ -13,18 +13,13 @@ class AddUserController {
     }
 
     public function addUser(): void {
-        if(isset($_POST["submit"])) {
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $userName = $_POST['name'] ?? '';
             $gameName = $_POST['poppet'] ?? '';
 
-            // Check if the form data is not empty
             if (!empty($userName) && !empty($gameName)) {
-                // Call the method to add the user to the database
                 $success = $this->userService->addUser($userName, $gameName);
-
                 if ($success) {
-                    // Redirect to the home page after adding the user
-                    header('Location: /home.php');
                     exit();
                 }
             } else {
