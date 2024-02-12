@@ -9,6 +9,7 @@
     </style>
 </head>
 <body>
+<img src="../public/images/ssc.png" alt="Example Image">
 <form method="post" class="AddUserForm" id="loginForm">
     <section class="UserLogin">
         <label for="username">Your Poppet: </label>

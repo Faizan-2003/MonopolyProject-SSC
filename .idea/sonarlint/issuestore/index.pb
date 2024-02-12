@@ -1,8 +1,6 @@
 
 C
 app/views/login.php,d\9\d90a1c45e3386e995519121fc998f5e3c24595cf
-R
-"app/controllers/UserController.php,1\5\151f3a1e2f9163bc8ea58fae5e833b07c6b7d9d2
 C
 app/models/User.php,a\f\af597125a98242ba3637328719fc60b1a07ea654
 H
@@ -72,8 +70,6 @@ S
 #app/repositories/UserRepository.php,9\3\93095e6fa25a2d3fb64a8d0030dc6426c9435ad4
 O
 app/repositories/Repository.php,7\1\71fd6e7ac4fbf91ae0809f5720740e19086158e7
-R
-"app/public/Javascript/Monopoly.php,0\5\05f423e0ba01e58e14c2eb11fca9914dbf377bd8
 Q
 !app/public/Javascript/Monopoly.js,d\f\df66d4e4782a1045272d7403232673fa1b0d4b9e
 C
