@@ -24,6 +24,18 @@ class UserRepository extends Repository {
         $statement->execute();
         return $statement->fetch(PDO::FETCH_ASSOC);
     }
-
+    public function getHashedPasswordById(int $userId): ?string {
+        try {
+            $query = "SELECT password FROM User WHERE id = :userId";
+            $statement = $this->connection->prepare($query);
+            $statement->bindValue(':userId', $userId);
+            $statement->execute();
+            $result = $statement->fetch(PDO::FETCH_ASSOC);
+            return $result ? $result['password'] : null;
+        } catch (PDOException $e) {
+            error_log($e->getMessage());
+            return null;
+        }
+    }
 }
 ?>

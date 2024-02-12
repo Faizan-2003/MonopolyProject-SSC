@@ -15,5 +15,8 @@ class UserService {
     public function findPoppetByUsername($username) {
         return $this->userRepository->findPoppetByUsername($username);
     }
+    public function getHashedPasswordById(int $userId): ?string {
+        return $this->userRepository->getHashedPasswordById($userId);
+    }
 }
 ?>

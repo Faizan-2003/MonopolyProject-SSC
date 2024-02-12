@@ -1,6 +1,8 @@
 
->	php:S17807"Remove this closing tag "?>".(Ö‘äÏúÿÿÿÿ8ËÌ¸ñØ1
-p	php:S3776"TRefactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.(Ù‡ó8š”¦÷Ù1
-m	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(‘¯Å‚8ËÌ¸ñØ1
-r	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(´ğê“ÿÿÿÿÿ8ËÌ¸ñØ1
-m	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(’Ñüé8²ë ÷Ù1
+qphp:S1003"QRename function "LoginAdmin" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(¨¿Î€şÿÿÿÿ8ÊÎøÙ1
+>	php:S1780Y"Remove this closing tag "?>".(Ö‘äÏúÿÿÿÿ8À¬¸øÙ1
+p	php:S3776"TRefactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.(Ù‡ó8·ûòøÙ1
+m	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(‘¯Å‚8À¬¸øÙ1
+m	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(·¾³8À¬¸øÙ1
+r	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(´ğê“ÿÿÿÿÿ8À¬¸øÙ1
+m	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(’Ñüé8„ëâøÙ1
