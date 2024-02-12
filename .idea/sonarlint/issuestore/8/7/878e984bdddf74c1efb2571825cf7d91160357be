@@ -1,0 +1,6 @@
+
+>	php:S1780"Remove this closing tag "?>".(Ö‘äÏúÿÿÿÿ8Ö¤îöÙ1
+:php:S113"'Add a new line at the end of this file.8úËíöÙ1
+B	php:S2003	"&Replace "require" with "require_once".(ËÉ®Æ8ûËíöÙ1
+?php:S125"Remove this commented out code.(Ä×øÿÿÿÿ8ûËíöÙ1
+h	php:S4833	"LReplace "require" with namespace import mechanism through the "use" keyword.(ËÉ®Æ8ûËíöÙ1

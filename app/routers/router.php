@@ -23,6 +23,16 @@ class router
                 $controller = new HomeController();
                 $controller->displayHomePage();
                 break;
+            case 'adminlogin':
+                require __DIR__ . "/../controllers/LoginController.php";
+                $controller = new LoginController();
+                $controller->displayAdminLoginPage();
+                break;
+            case 'adminportal':
+                require __DIR__ . "/../controllers/AdminPortalController.php";
+                $controller = new AdminPortalController();
+                $controller->displayAdminPortal();
+                break;
             case 'api/adsapi':
                 require __DIR__ . '/../API/AdsController.php';
                 $controller = new AdsController();

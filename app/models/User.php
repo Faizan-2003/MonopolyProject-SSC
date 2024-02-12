@@ -6,4 +6,5 @@ class User{
     public string $gameName;
     public int $properties;
     public int $balanceAmount;
+    public string $password;
 }

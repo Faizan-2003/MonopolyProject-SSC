@@ -78,3 +78,11 @@ B
 app/views/home.php,3\a\3aa877c2668fbed84c66e172d152c25e51f02e6c
 R
 "app/controllers/HomeController.php,9\b\9bb6e8444935035f8d62e909e1eab3f721034864
+I
+app/views/AdminPortal.php,4\1\41dfc52ffec4be684574fcc4e6772659a0b7ed44
+F
+app/views/password.php,6\5\65edcd048dcc7f387e0824097cee7f108bbb2636
+Y
+)app/controllers/AdminPortalController.php,8\7\878e984bdddf74c1efb2571825cf7d91160357be
+X
+(app/controllers/UserPortalController.php,4\7\47f3098f5e53536751e895fce335d7c2636a1510

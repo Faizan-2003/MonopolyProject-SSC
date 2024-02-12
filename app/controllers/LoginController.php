@@ -16,7 +16,10 @@ class LoginController {
         // Load the login view
         require_once __DIR__ . '/../Views/login.php';
     }
-
+    public function displayAdminLoginPage(): void {
+        // Load the login view
+        require_once __DIR__ . '/../Views/password.php';
+    }
     // Method to handle login form submission
     public function loginUser(): void {
         // Check if the form is submitted via POST
