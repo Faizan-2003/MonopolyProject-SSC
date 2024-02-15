@@ -16,7 +16,13 @@ class UserRepository extends Repository {
             return false;
         }
     }
-
+    public function findUserByUsername($username) {
+        $query = "SELECT * FROM User WHERE gameName = :username";
+        $statement = $this->connection->prepare($query);
+        $statement->bindValue(':username', $username);
+        $statement->execute();
+        return $statement->fetch(PDO::FETCH_ASSOC);
+    }
     public function findPoppetByUsername($username) {
         $query = "SELECT * FROM User WHERE gameName = :username";
         $statement = $this->connection->prepare($query);

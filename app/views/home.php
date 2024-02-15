@@ -11,23 +11,32 @@
 </head>
 
 <body>
-    <h1>Welcome to Monopoly Inholland</h1>
-    <h2>Name: </h2>
+<h1>Welcome to Monopoly Inholland</h1>
+<?php if ($user) : ?>
+    <h2>Name: <?php echo $user['userName']; ?></h2>
+    <h2>Amount Money: $<?php echo $user['balanceAmount']; ?></h2>
+<?php else : ?>
+    <h2>Name: [Name Unavailable]</h2>
     <h2>Amount Money: $---</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Your Properties</th>
-                <th>Property Cost</th>
-                <th>Property fine</th>
-            </tr>
-        </thead>
-        <tbody>
-            <td>Name Property</td>
-            <td>$$$</td>
-            <td>$$$</td>
-        </tbody>
-    </table>
+<?php endif; ?>
+
+<table>
+    <thead>
+    <tr>
+        <th>Your Properties</th>
+        <th>Property Cost</th>
+        <th>Property Fine</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Name Property</td>
+        <td>$$$</td>
+        <td>$$$</td>
+    </tr>
+    <!-- Add more rows as needed -->
+    </tbody>
+</table>
 </body>
 
 </html>
