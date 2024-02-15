@@ -12,7 +12,7 @@
 
 <body>
     <h1>Welcome to Monopoly Inholland Admin Portal</h1>
-    <a href="AddUser.php">Add User Page</a>
+    <a href="/adduser">Add User Page</a>
 </body>
 
 </html>

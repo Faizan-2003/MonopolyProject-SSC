@@ -3,9 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Login</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Login | Monopoly Inholland</title>
     <style>
         <?php include __DIR__ . '/../public/CSS/Style.css'; ?>
@@ -16,10 +13,10 @@
 <form method="post" class="AddUserForm" id="loginForm">
     <section class="UserLogin">
         <label for="password">Your Admin Password: </label>
-        <input type="text" id="password" name="password" required>
+        <input type="password" id="password" name="password" required>
     </section>
     <section class="submit-button">
-        <input type="submit" value="submit" id="submit">
+        <input type="submit" value="Submit" id="submit">
     </section>
 </form>
 <script>

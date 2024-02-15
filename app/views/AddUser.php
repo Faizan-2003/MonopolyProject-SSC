@@ -24,9 +24,12 @@
         <input type="submit" value="submit" name="submit" id="submit">
     </section>
 
-    <!-- Add a message element -->
     <div id="message"></div>
 </form>
+<form method="post" class="btn-primary" action="/adminportal">
+    <input type="submit" value="Return" name="submit" id="submit">
+</form>
+
 <script>
     <?php include __DIR__ . '/../public/Javascript/Monopoly.js'; ?>
 </script>
