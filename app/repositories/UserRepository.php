@@ -30,5 +30,24 @@ class UserRepository extends Repository {
         $statement->execute();
         return $statement->fetch(PDO::FETCH_ASSOC);
     }
+    public function getUserInfo($userID)
+    {
+        // Query to fetch user information based on user ID
+        $query = "SELECT * FROM User WHERE userID = :userID";
+        $stmt = $this->connection->prepare($query);
+        $stmt->bindParam(':userID', $userID);
+        $stmt->execute();
+        return $stmt->fetch(PDO::FETCH_ASSOC);
+    }
+
+    public function getUserProperties($userID)
+    {
+        // Query to fetch properties owned by the user
+        $query = "SELECT * FROM Properties WHERE userID = :userID";
+        $stmt = $this->connection->prepare($query);
+        $stmt->bindParam(':userID', $userID);
+        $stmt->execute();
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
 }
 ?>

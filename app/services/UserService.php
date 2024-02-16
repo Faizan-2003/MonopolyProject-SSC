@@ -15,9 +15,16 @@ class UserService {
     public function findPoppetByUsername($username) {
         return $this->userRepository->findPoppetByUsername($username);
     }
-    private function findUserByUsername($username) {
+    public function findUserByUsername($username) {
         return $this->userRepository->findUserByUsername($username);
     }
+    public function getUserProperties($userID) {
+        return $this->userRepository->getUserProperties($userID);
+    }
+    public function getUserInfo($userID) {
+        return $this->userRepository->getUserInfo($userID);
+    }
+
 
 }
 ?>

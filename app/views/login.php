@@ -16,7 +16,7 @@
         <input type="text" id="username" name="username" required>
     </section>
     <section class="submit-button">
-        <input type="submit" value="submit" id="submit">
+        <input type="submit" value="Login" id="submit">
     </section>
 </form>
 <script>

@@ -21,7 +21,7 @@
     </section>
 
     <section class="submit-button">
-        <input type="submit" value="submit" name="submit" id="submit">
+        <input type="submit" value="Add user" name="submit" id="submit">
     </section>
 
     <div id="message"></div>

@@ -7,14 +7,14 @@ class User{
     public int $properties;
     public int $balanceAmount;
     public string $password;
-
-    public function __construct($userID, $userName, $gameName, $properties, $balanceAmount, $password){
-        $this->userID = $userID;
-        $this->userName = $userName;
-        $this->gameName = $gameName;
-        $this->properties = $properties;
-        $this->balanceAmount = $balanceAmount;
-        $this->password = $password;
+    public function __construct($userData) {
+        // Initialize user properties from $userData
+        $this->userID = $userData['userID'] ?? 0; // Provide a default value if $userData['userID'] is not set
+        $this->userName = $userData['userName'] ?? '';
+        $this->gameName = $userData['gameName'] ?? '';
+        $this->properties = $userData['properties'] ?? 0;
+        $this->balanceAmount = $userData['balanceAmount'] ?? 0;
+        $this->password = $userData['password'] ?? '';
     }
 
     function getUserID() {

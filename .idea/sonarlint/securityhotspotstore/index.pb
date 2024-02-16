@@ -86,3 +86,5 @@ Y
 )app/controllers/AdminPortalController.php,8\7\878e984bdddf74c1efb2571825cf7d91160357be
 X
 (app/controllers/UserPortalController.php,4\7\47f3098f5e53536751e895fce335d7c2636a1510
+I
+app/logic/LogInandOut.php,0\a\0a7f618b017552ca1877aca4e8a8ae4bb6e6dfa3

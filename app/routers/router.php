@@ -1,4 +1,6 @@
 <?php
+require_once __DIR__ . '/../repositories/UserRepository.php'; // Include the file containing UserRepository class
+require_once __DIR__ . '/../services/UserService.php'; // Include the file containing UserService class
 class router
 {
     public function route($uri)
@@ -20,7 +22,9 @@ class router
                 break;
             case 'home':
                 require __DIR__ . "/../controllers/HomeController.php";
-                $controller = new HomeController();
+                $userRepository = new UserRepository();
+                $userService = new UserService($userRepository); // Instantiate UserService
+                $controller = new HomeController($userService); // Pass the UserService instance to HomeController
                 $controller->displayHomePage();
                 break;
             case 'adminlogin':

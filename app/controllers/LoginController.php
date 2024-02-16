@@ -1,8 +1,7 @@
 <?php
-
-// Import the necessary dependencies
 require_once __DIR__ . '/../services/UserService.php';
 require_once __DIR__ . '/../models/User.php';
+require_once __DIR__ . '/../logic/LogInandOut.php';
 
 class LoginController {
     private $userService;
@@ -26,13 +25,14 @@ class LoginController {
             $poppet = $this->userService->findPoppetByUsername($username);
 
             if ($poppet) {
-                $userId = isset($poppet['userID']) ? $poppet['userID'] : '';
+                $user = new User($poppet);
+                // Pass the User object to assignLoggedUserToSession()
+                assignLoggedUserToSession($user);
 
-                if ($userId) {
-                    $redirectUrl = $poppet['gameName'] == "Marker" || $poppet['gameName'] == "Boat" ? "/adminportal?userId=$userId" : "/home?userId=$userId";
-                    header("Location: $redirectUrl");
-                    exit();
-                }
+                // Redirect to the appropriate page based on gameName
+                $redirectUrl = $poppet['gameName'] == "Marker" || $poppet['gameName'] == "Boat" ? "/adminportal" : "/home";
+                header("Location: $redirectUrl");
+                exit();
             }
         }
     }

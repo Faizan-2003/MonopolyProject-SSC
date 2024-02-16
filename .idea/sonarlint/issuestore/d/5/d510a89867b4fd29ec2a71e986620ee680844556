@@ -1,7 +1,8 @@
 
-fphp:S103 "KSplit this 157 characters long line (which is greater than 120 authorized).(ë‘Š¡8Ã±§çÚ1
+kphp:S103!"KSplit this 123 characters long line (which is greater than 120 authorized).(Ïš³Àşÿÿÿÿ8ÂİÀŒÛ1
 >	php:S1780+"Remove this closing tag "?>".(Ö‘äÏúÿÿÿÿ8Ä±§çÚ1
-m	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(‘¯Å‚8Ä±§çÚ1
-m	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(·¾³8Ä±§çÚ1
-r	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(´ğê“ÿÿÿÿÿ8Ä±§çÚ1
-m	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(’Ñüé8Ä±§çÚ1
+m	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(‘¯Å‚8Ä±§çÚ1
+m	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(·¾³8÷ ¨ŒÛ1
+m	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(Á—£ı8ÂİÀŒÛ1
+r	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(´ğê“ÿÿÿÿÿ8ÂİÀŒÛ1
+m	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(’Ñüé8ä“ÊŒÛ1
