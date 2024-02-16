@@ -7,14 +7,14 @@
 </head>
 <body>
 <h1>Welcome to the Home Page</h1>
-<p>Name: <?php echo $user['name'] ?? '[Name Unavailable]'; ?></p>
-<p>Balance: $<?php echo $user['balance'] ?? '[Balance Unavailable]'; ?></p>
+<p>Name: <?php echo $user['userName'] ?? '[Name Unavailable]'; ?></p>
+<p>Balance: $<?php echo $user['balanceAmount'] ?? '[Balance Unavailable]'; ?></p>
 
-<?php if (!empty($userProperties)): ?>
+<?php if (!empty($properties)): ?>
     <h2>Properties:</h2>
     <ul>
-        <?php foreach ($userProperties as $property): ?>
-            <li><?php echo $property['name']; ?> - $<?php echo $property['value']; ?></li>
+        <?php foreach ($properties as $property): ?>
+            <li><?php echo $property['propertyName'] ?? '[Property Name Unavailable]'; ?> - $<?php echo $property['propertyPrice'] ?? '[Property Value Unavailable]'; ?></li>
         <?php endforeach; ?>
     </ul>
 <?php else: ?>

@@ -19,18 +19,23 @@ class HomeController {
             echo "User not logged in. Please go back to the login page.";
             return;
         }
-var_dump($loggedUser);
+
         // Retrieve user ID from the logged-in user object
         $userID = $loggedUser->getUserID();
 
         // Fetch user information from the database using the user ID
         $user = $this->userService->getUserInfo($userID);
+        if (!$user) {
+            echo "User not found.";
+            return;
+        }
 
         // Fetch properties owned by the user from the database
         $properties = $this->userService->getUserProperties($userID);
 
-        // Display user information on the home page
-        require __DIR__ . "/../Views/home.php";
+        // Pass user data and properties to the view
+        require_once __DIR__ . "/../Views/home.php";
     }
+
 }
 ?>
