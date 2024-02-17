@@ -124,6 +124,25 @@ body {
 }
 
 #property-details th, #property-details td {
-    padding: 8px; /* Add padding to table cells */
-    border: 1px solid #ddd; /* Add border to table cells */
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+.second-table {
+    margin-top: 100px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  <!-- font-weight: bold; -->
+}
+.btn-primary:hover {
+    background-color: white;
+    color: black;
+    transition: 0.3s;
 }

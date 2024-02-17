@@ -3,9 +3,11 @@ require_once __DIR__ . '/../logic/LogInandOut.php'; // Include the file containi
 
 class HomeController {
     private $userService;
+    private $PropertiesService;
 
-    public function __construct(UserService $userService) {
+    public function __construct(UserService $userService, PropertiesService $PropertiesService) {
         $this->userService = $userService;
+        $this->PropertiesService = $PropertiesService;
     }
 
     public function displayHomePage(): void {
@@ -32,6 +34,7 @@ class HomeController {
 
         // Fetch properties owned by the user from the database
         $properties = $this->userService->getUserProperties($userID);
+        $additionalproperties = $this->PropertiesService->getAllProperties();
 
         // Pass user data and properties to the view
         require_once __DIR__ . "/../Views/home.php";

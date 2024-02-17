@@ -1,5 +1,8 @@
 
->	php:S1780)"Remove this closing tag "?>".(Ö‘äÏúÿÿÿÿ8š÷‹Û1
-L	php:S1481""0Remove this unused "$properties" local variable.(Üû¼£8Á†íŒÛ1
-m	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(äå’8š÷‹Û1
-r	php:S4833%"QReplace "require_once" with namespace import mechanism through the "use" keyword.(ƒŒõ¡øÿÿÿÿ8Â†íŒÛ1
+>	php:S1780,"Remove this closing tag "?>".(Ö‘äÏúÿÿÿÿ8¯á„ÁÛ1
+{php:S116"[Rename this field "$PropertiesService" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ÎŸÅúÿÿÿÿ8¯á„ÁÛ1
+php:S117"aRename this parameter "$PropertiesService" to match the regular expression ^[a-z_][a-zA-Z0-9_]*$.(üÈßËşÿÿÿÿ8°á„ÁÛ1
+L	php:S1481$"0Remove this unused "$properties" local variable.(Üû¼£8°á„ÁÛ1
+[	php:S1481%":Remove this unused "$additionalproperties" local variable.(ëõ÷œşÿÿÿÿ8ó€°ÁÛ1
+m	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(äå’8°á„ÁÛ1
+r	php:S4833("QReplace "require_once" with namespace import mechanism through the "use" keyword.(ƒŒõ¡øÿÿÿÿ8°á„ÁÛ1

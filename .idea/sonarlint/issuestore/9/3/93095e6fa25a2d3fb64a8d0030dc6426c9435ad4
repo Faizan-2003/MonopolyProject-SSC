@@ -1,4 +1,4 @@
 
->	php:S17805"Remove this closing tag "?>".(Ö‘äÏúÿÿÿÿ8ä‘çÚ1
+>	php:S17806"Remove this closing tag "?>".(Ö‘äÏúÿÿÿÿ8ä‘çÚ1
 ~	php:S4144"bUpdate this method so that its implementation is not identical to "findUserByUsername" on line 19.(Áöó8»Ï‚èÚ1
 r	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(úò­±ûÿÿÿÿ8ä‘çÚ1

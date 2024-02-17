@@ -14,4 +14,8 @@ class PropertiesService
     {
         return $this->propertiesRepository->getPropertyDetails($propertyId);
     }
+    public function getAllProperties()
+    {
+        return $this->propertiesRepository->getAllProperties();
+    }
 }

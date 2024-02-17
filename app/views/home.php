@@ -6,7 +6,6 @@
     <title>Welcome to Monopoly Inholland</title>
     <style>
         <?php include __DIR__ . '/../public/CSS/Style.css'; ?>
-
     </style>
 </head>
 <body>
@@ -29,22 +28,45 @@
                 <td>$<?php echo $property['propertyPrice'] ?? '---'; ?></td>
             </tr>
         <?php endforeach; ?>
-
         </tbody>
     </table>
 <?php else: ?>
     <p>No properties found.</p>
 <?php endif; ?>
 
-<!-- Popup content -->
-
 <div class="popup" id="popup">
     <div class="popup-content">
         <div id="property-details">
         </div>
-            <span class="close-btn" onclick="closePopup()">Close</span>
+        <span class="close-btn" onclick="closePopup()">Close</span>
     </div>
 </div>
+
+<button class="btn-primary" onclick="trade()">Trade</button>
+<button class="btn-primary" onclick="build()">Build</button>
+<button class="btn-primary" onclick="buy()">Buy</button>
+<button class="btn-primary" onclick="sell()">Sell</button>
+<button class="btn-primary" onclick="mortgage()">Mortgage</button>
+<button class="btn-primary" onclick="redeem()">Redeem</button>
+
+<table class="second-table">
+    <thead>
+    <tr>
+        <th>Property Name</th>
+        <th>Property Cost</th>
+        <th>Owner Name</th>
+    </tr>
+    </thead>
+    <tbody>
+    <?php foreach ($additionalproperties as $property): ?>
+        <tr>
+            <td><?php echo $property['propertyName'] ?? '[Property Name Unavailable]'; ?></td>
+            <td>$<?php echo $property['propertyPrice'] ?? '---'; ?></td>
+            <td><?php echo $property['OwnerName'] ?? '---'; ?></td>
+        </tr>
+    <?php endforeach; ?>
+    </tbody>
+</table>
 <script>
     <?php include __DIR__ . '/../public/Javascript/Monopoly.js'; ?>
 </script>
