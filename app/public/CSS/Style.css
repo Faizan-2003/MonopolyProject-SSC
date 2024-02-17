@@ -68,7 +68,10 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    height: 80%;
+    overflow-y: auto; 
 }
+
 
 .popup-header {
     display: flex;
@@ -85,6 +88,8 @@ body {
 }
 
 .close-btn {
+    position: fixed;
+    transform: translateX(-50%);
     background-color: #dc3545;
     color: #fff;
     border: none;
@@ -94,6 +99,31 @@ body {
     transition: background-color 0.3s ease;
 }
 
+
 .close-btn:hover {
     background-color: #c82333;
+}
+
+#property-details {
+    font-size: 16px; /* Adjust font size */
+    line-height: 1.5; /* Adjust line height */
+}
+
+/* Optionally, you can adjust the heading sizes as well */
+#property-details h3, #property-details h4, #property-details h2 {
+    margin: 0; /* Remove default margin */
+    font-size: 18px; /* Adjust heading font size */
+}
+#property-details h2 {
+    font-size: 24px; /* Adjust heading font size */
+}
+/* Adjust table styles */
+#property-details table {
+    width: 100%; /* Make the table fill the width of its container */
+    border-collapse: collapse; /* Collapse table borders */
+}
+
+#property-details th, #property-details td {
+    padding: 8px; /* Add padding to table cells */
+    border: 1px solid #ddd; /* Add border to table cells */
 }

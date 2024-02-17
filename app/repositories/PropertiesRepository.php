@@ -5,7 +5,7 @@ class PropertiesRepository extends Repository {
     function getPropertyDetails($propertyId) {
         // Perform a database query to fetch property details by property ID
         // Adjust the query to select the necessary fields including fines for different scenarios
-        $query = "SELECT propertyName, userID, propertyRent, oneHouse, twoHouse, threeHouse, fourHouses, hotelRent
+        $query = "SELECT propertyName, userID, propertyRent, oneHouse, twoHouse, threeHouse, fourHouses, hotelRent, mortgageValue, buildingCost
                   FROM Properties
                   WHERE propertyID = :propertyId";
         $statement = $this->connection->prepare($query);

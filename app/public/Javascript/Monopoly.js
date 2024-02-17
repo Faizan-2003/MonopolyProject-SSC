@@ -67,6 +67,7 @@ function fetchPropertyDetails(propertyId) {
 
 // Function to display the popup with property details
 // Function to display the popup with property details
+// Function to display the popup with property details
 function displayPopup(propertyName, propertyId) {
     // Fetch property details including fines
     fetchPropertyDetails(propertyId)
@@ -90,27 +91,26 @@ function displayPopup(propertyName, propertyId) {
                     </tbody>
                 </table>
             `;
-
             const propertyDetailsHTML = `
                 <h2>Property Name: ${propertyName}</h2>
-                <h3>Owner Name: <?php echo $user['userName'] ?? '[Name Unavailable]'; ?></h3>
-                <h3>Fines:</h3>
+                <hr>
+                <h4>Owner Name: <?php echo $user['userName'] ?? '[Name Unavailable]'; ?></h4>
+                <h4>Fines:</h4>
                 ${finesTableHTML}
+                <hr> 
+                <h4>Mortgage Value: $${propertyDetails.mortgageValue}</h4>
+                <h4>House Cost: $${propertyDetails.buildingCost} (each)</h4>
+                <h4>Hotel Cost: $${propertyDetails.buildingCost} (with 4 houses)</h4>
             `;
-
-            // Set the property details in the popup content
             document.getElementById('property-details').innerHTML = propertyDetailsHTML;
 
-            // Show the popup
             document.getElementById('popup').style.display = 'block';
         })
         .catch(error => {
             console.error('Error fetching property details:', error);
-            // Optionally, display an error message to the user
         });
 }
 
-// Function to close the popup
 function closePopup() {
     document.getElementById('popup').style.display = 'none';
 }

@@ -37,11 +37,12 @@
 <?php endif; ?>
 
 <!-- Popup content -->
+
 <div class="popup" id="popup">
     <div class="popup-content">
         <div id="property-details">
         </div>
-        <span class="close-btn" onclick="closePopup()">Close</span>
+            <span class="close-btn" onclick="closePopup()">Close</span>
     </div>
 </div>
 <script>

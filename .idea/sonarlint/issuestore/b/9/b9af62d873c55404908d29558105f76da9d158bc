@@ -1,4 +1,5 @@
 
+fphp:S103"KSplit this 143 characters long line (which is greater than 120 authorized).(Í—¦ç8¿†¿Û1
 g	php:S1784"FExplicitly mention the visibility of this method "getPropertyDetails".(Şñˆøúÿÿÿÿ8ôÎ¼Û1
 >	php:S1780"Remove this closing tag "?>".(Ö‘äÏúÿÿÿÿ8ôÎ¼Û1
 ‰	php:S1488"hImmediately return this expression instead of assigning it to the temporary variable "$propertyDetails".(òªóúÿÿÿÿ8ôÎ¼Û1
