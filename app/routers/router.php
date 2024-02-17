@@ -37,11 +37,10 @@ class router
                 $controller = new AdminPortalController();
                 $controller->displayAdminPortal();
                 break;
-            case 'api/adsapi':
-                require __DIR__ . '/../API/AdsController.php';
-                $controller = new AdsController();
-                $controller->postNewAdRequest();
+            case 'api/getpropertydetails':
+                require __DIR__ . '/../api/getPropertyDetails.php';
                 break;
+
             case 'api/adsbyloggeduser':
                 require __DIR__ . '/../API/AdsController.php';
                 $controller = new AdsController();

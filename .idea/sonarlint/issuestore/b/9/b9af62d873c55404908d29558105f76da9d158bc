@@ -1,0 +1,5 @@
+
+g	php:S1784"FExplicitly mention the visibility of this method "getPropertyDetails".(Şñˆøúÿÿÿÿ8ôÎ¼Û1
+>	php:S1780"Remove this closing tag "?>".(Ö‘äÏúÿÿÿÿ8ôÎ¼Û1
+‰	php:S1488"hImmediately return this expression instead of assigning it to the temporary variable "$propertyDetails".(òªóúÿÿÿÿ8ôÎ¼Û1
+r	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(úò­±ûÿÿÿÿ8àÆ¼Û1

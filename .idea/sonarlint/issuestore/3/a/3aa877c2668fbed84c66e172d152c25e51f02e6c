@@ -1,2 +1,6 @@
 
-kphp:S103"KSplit this 173 characters long line (which is greater than 120 authorized).(¡·Àñÿÿÿÿÿ8²ÕòŒÛ1
+TWeb:TableWithoutCaptionCheck" Add a description to this table.(¿‰˜ÿÿÿÿÿ8Ù×¼Û1
+B	php:S2003"&Replace "include" with "include_once".(Š¾‹É8Ú€Õ¼Û1
+B	php:S20030"&Replace "include" with "include_once".(Ú®ã‚8•Ÿ×¼Û1
+h	php:S4833"LReplace "include" with namespace import mechanism through the "use" keyword.(Š¾‹É8Ú€Õ¼Û1
+h	php:S48330"LReplace "include" with namespace import mechanism through the "use" keyword.(Ú®ã‚8•Ÿ×¼Û1

@@ -1,0 +1,5 @@
+
+kphp:S103"KSplit this 159 characters long line (which is greater than 120 authorized).(°ÈÚëüÿÿÿÿ8€ï¼Û1
+hphp:S107"HThis function has 10 parameters, which is greater than the 7 authorized.(°ÈÚëüÿÿÿÿ8€ï¼Û1
+?	php:S1780…"Remove this closing tag "?>".(Ö‘äÏúÿÿÿÿ8€ï¼Û1
+‚	php:S1448"fClass "Properties" has 21 methods, which is greater than 20 authorized. Split it into smaller classes.(·ÊûÚ8€ï¼Û1

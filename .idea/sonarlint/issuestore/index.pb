@@ -88,3 +88,11 @@ X
 (app/controllers/UserPortalController.php,4\7\47f3098f5e53536751e895fce335d7c2636a1510
 I
 app/logic/LogInandOut.php,0\a\0a7f618b017552ca1877aca4e8a8ae4bb6e6dfa3
+Y
+)app/repositories/PropertiesRepository.php,b\9\b9af62d873c55404908d29558105f76da9d158bc
+R
+"app/services/PropertiesService.php,8\2\82830fd5fb136cef731a7821b53d4eae6db6be9f
+I
+app/models/Properties.php,7\9\79efbffedcd5014f885ab3b2bb02b02a9028c0bd
+N
+app/API/getPropertyDetails.php,3\a\3abeb6b7d6442849f787f23626574d45d75bf991

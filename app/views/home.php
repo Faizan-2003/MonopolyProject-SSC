@@ -3,22 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>Welcome to Monopoly Inholland</title>
+    <style>
+        <?php include __DIR__ . '/../public/CSS/Style.css'; ?>
+
+    </style>
 </head>
 <body>
-<h1>Welcome to the Home Page</h1>
-<p>Name: <?php echo $user['userName'] ?? '[Name Unavailable]'; ?></p>
-<p>Balance: $<?php echo $user['balanceAmount'] ?? '[Balance Unavailable]'; ?></p>
-
+<h1>Welcome to Monopoly Inholland</h1>
+<h2>Name: <?php echo $user['userName'] ?? '[Name Unavailable]'; ?></h2>
+<h2>Amount Money: $<?php echo $user['balanceAmount'] ?? '---'; ?></h2>
 <?php if (!empty($properties)): ?>
-    <h2>Properties:</h2>
-    <ul>
+    <table>
+        <thead>
+        <tr>
+            <th>Your Properties</th>
+            <th>Property Cost</th>
+        </tr>
+        </thead>
+        <tbody>
         <?php foreach ($properties as $property): ?>
-            <li><?php echo $property['propertyName'] ?? '[Property Name Unavailable]'; ?> - $<?php echo $property['propertyPrice'] ?? '[Property Value Unavailable]'; ?></li>
+            <tr>
+                <td class="property-cell" data-property-id="<?php echo $property['propertyID'] ?? ''; ?>">
+                    <?php echo $property['propertyName'] ?? '[Property Name Unavailable]'; ?></td>
+                <td>$<?php echo $property['propertyPrice'] ?? '---'; ?></td>
+            </tr>
         <?php endforeach; ?>
-    </ul>
+
+        </tbody>
+    </table>
 <?php else: ?>
     <p>No properties found.</p>
 <?php endif; ?>
+
+<!-- Popup content -->
+<div class="popup" id="popup">
+    <div class="popup-content">
+        <div id="property-details">
+        </div>
+        <span class="close-btn" onclick="closePopup()">Close</span>
+    </div>
+</div>
+<script>
+    <?php include __DIR__ . '/../public/Javascript/Monopoly.js'; ?>
+</script>
 </body>
 </html>
