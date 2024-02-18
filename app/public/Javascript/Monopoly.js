@@ -114,3 +114,18 @@ function displayPopup(propertyName, propertyId) {
 function closePopup() {
     document.getElementById('popup').style.display = 'none';
 }
+
+
+    document.addEventListener("DOMContentLoaded", function() {
+    // Find the return button
+    const returnButton = document.getElementById("return");
+
+    // Add event listener for click
+    returnButton.addEventListener("click", function(event) {
+    // Prevent form submission
+    event.preventDefault();
+
+    // Redirect to /adminportal
+    window.location.href = "/adminportal";
+});
+});

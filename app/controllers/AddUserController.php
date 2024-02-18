@@ -23,7 +23,6 @@ class AddUserController {
                     exit();
                 }
             } else {
-                // Display an error message if form data is incomplete
                 echo 'Incomplete form data.';
             }
         }

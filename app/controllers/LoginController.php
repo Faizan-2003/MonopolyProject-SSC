@@ -26,10 +26,8 @@ class LoginController {
 
             if ($poppet) {
                 $user = new User($poppet);
-                // Pass the User object to assignLoggedUserToSession()
                 assignLoggedUserToSession($user);
 
-                // Redirect to the appropriate page based on gameName
                 $redirectUrl = $poppet['gameName'] == "Marker" || $poppet['gameName'] == "Boat" ? "/adminportal" : "/home";
                 header("Location: $redirectUrl");
                 exit();

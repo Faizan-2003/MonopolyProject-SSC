@@ -40,7 +40,9 @@ class router
                 break;
             case 'adminportal':
                 require __DIR__ . "/../controllers/AdminPortalController.php";
-                $controller = new AdminPortalController();
+                $PropertiesRepository = new PropertiesRepository();
+                $PropertiesService = new PropertiesService($PropertiesRepository);
+                $controller = new AdminPortalController($PropertiesService);
                 $controller->displayAdminPortal();
                 break;
             case 'api/getpropertydetails':

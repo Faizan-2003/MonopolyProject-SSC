@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/ssc.png">
+
     <title>Login | Monopoly Inholland</title>
     <style>
         <?php include __DIR__ . '/../public/CSS/Style.css'; ?>
     </style>
 </head>
 <body>
-<img src="../public/images/ssc.png" alt="Example Image">
+<a href="/homepage"><img class="mb-4" src="/images/ssc.png" alt="Website Logo" width="350" height="150"></a>
+<h1><strong>Monopoly - Login</strong></h1>
 <form method="post" class="AddUserForm" id="loginForm">
     <section class="UserLogin">
         <label for="username">Your Poppet: </label>

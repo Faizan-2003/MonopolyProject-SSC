@@ -1,3 +1,48 @@
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+form section {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+#message {
+    color: #dc3545;
+    font-weight: bold;
+    margin-top: 10px;
+}
 body {
 
     background: rgb(161, 7, 2);
@@ -105,22 +150,20 @@ body {
 }
 
 #property-details {
-    font-size: 16px; /* Adjust font size */
-    line-height: 1.5; /* Adjust line height */
+    font-size: 16px;
+    line-height: 1.5;
 }
 
-/* Optionally, you can adjust the heading sizes as well */
 #property-details h3, #property-details h4, #property-details h2 {
-    margin: 0; /* Remove default margin */
-    font-size: 18px; /* Adjust heading font size */
+    margin: 0;
+    font-size: 18px;
 }
 #property-details h2 {
-    font-size: 24px; /* Adjust heading font size */
+    font-size: 24px;
 }
-/* Adjust table styles */
 #property-details table {
-    width: 100%; /* Make the table fill the width of its container */
-    border-collapse: collapse; /* Collapse table borders */
+    width: 100%;
+    border-collapse: collapse;
 }
 
 #property-details th, #property-details td {
@@ -142,6 +185,54 @@ body {
   <!-- font-weight: bold; -->
 }
 .btn-primary:hover {
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #000;
+}
+
+form section {
+    margin-bottom: 20px;
+}
+
+form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.form-primary-return {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-primary-return {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+<!-- font-weight: bold; -->
+}
+
+form input[type="button"]:hover {
+    background-color: #0056b3;
+}
+.btn-primary-return:hover {
     background-color: white;
     color: black;
     transition: 0.3s;
