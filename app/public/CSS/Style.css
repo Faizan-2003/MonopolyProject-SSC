@@ -226,7 +226,6 @@ form input[type="submit"]:hover {
     border: black;
     border-radius: 5px;
     margin-bottom: 10px;
-<!-- font-weight: bold; -->
 }
 
 form input[type="button"]:hover {
@@ -236,4 +235,27 @@ form input[type="button"]:hover {
     background-color: white;
     color: black;
     transition: 0.3s;
+}
+
+.btn-primary-finish {
+    background-color: #00ff2c;
+    color: black;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: black;
+    margin-top: -20px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.btn-primary-finish:hover {
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+.turn-message {
+    background-color: #00ff2c;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
 }

@@ -124,8 +124,30 @@ function closePopup() {
     returnButton.addEventListener("click", function(event) {
     // Prevent form submission
     event.preventDefault();
-
-    // Redirect to /adminportal
     window.location.href = "/adminportal";
 });
 });
+
+function finishTurn() {
+    fetch('/finishTurn', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ finish_turn: true }) // Send a flag to indicate finishing turn
+    })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Failed to finish turn');
+            }
+            return response.json();
+        })
+        .then(data => {
+            // Reload the page to display the next player's information
+            location.reload();
+        })
+        .catch(error => {
+            console.error('Error finishing turn:', error);
+        });
+}
+

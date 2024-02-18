@@ -24,6 +24,12 @@ class UserService {
     public function getUserInfo($userID) {
         return $this->userRepository->getUserInfo($userID);
     }
+    public function getActivePlayerIDs() {
+        return $this->userRepository->getActivePlayerIDs();
+    }
+    public function getNextPlayerID($currentPlayerID, $connection) {
+        return $this->userRepository->getNextPlayerID($currentPlayerID, $connection);
+    }
 
 
 }

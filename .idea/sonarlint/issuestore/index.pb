@@ -94,3 +94,5 @@ I
 app/models/Properties.php,7\9\79efbffedcd5014f885ab3b2bb02b02a9028c0bd
 N
 app/API/getPropertyDetails.php,3\a\3abeb6b7d6442849f787f23626574d45d75bf991
+G
+app/API/PlayersTurn.php,7\2\72689e7b6ecf998ea3009707e9b73606bee8a3f3

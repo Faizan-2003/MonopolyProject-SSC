@@ -48,7 +48,9 @@ class router
             case 'api/getpropertydetails':
                 require __DIR__ . '/../api/getPropertyDetails.php';
                 break;
-
+            case 'api/finishTurn':
+                require __DIR__ . '/../api/PlayersTurn.php';
+                break;
             case 'api/adsbyloggeduser':
                 require __DIR__ . '/../API/AdsController.php';
                 $controller = new AdsController();

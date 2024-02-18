@@ -1,8 +1,8 @@
 
->	php:S1780$"Remove this closing tag "?>".(Φ‘δΟϊÿÿÿÿ8―α„ΑΫ1
-{php:S116"[Rename this field "$PropertiesService" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ΞΕϊÿÿÿÿ8―α„ΑΫ1
-php:S117"aRename this parameter "$PropertiesService" to match the regular expression ^[a-z_][a-zA-Z0-9_]*$.(όΘίΛώÿÿÿÿ8°α„ΑΫ1
-L	php:S1481"0Remove this unused "$properties" local variable.(άϋΌ£8°α„ΑΫ1
-[	php:S1481":Remove this unused "$additionalproperties" local variable.(λυχώÿÿÿÿ8σ€°ΑΫ1
-m	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(δε’8°α„ΑΫ1
-r	php:S4833!"QReplace "require_once" with namespace import mechanism through the "use" keyword.(ƒυ΅ψÿÿÿÿ8°α„ΑΫ1
+>	php:S1780C"Remove this closing tag "?>".(Φ‘δΟϊÿÿÿÿ8―α„ΑΫ1
+L	php:S1481"0Remove this unused "$properties" local variable.(άϋΌ£8ϋωμεΫ1
+V	php:S1481 ":Remove this unused "$additionalproperties" local variable.(Δϊ±8ϋωμεΫ1
+Q	php:S1481$"5Remove this unused "$currentPlayerID" local variable.(Ϊώ¥®8ϊ‘ ζΫ1
+m	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(δε’8ϋωμεΫ1
+m	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(‘―Ε‚8ϋωμεΫ1
+r	php:S4833&"QReplace "require_once" with namespace import mechanism through the "use" keyword.(ƒυ΅ψÿÿÿÿ8ϊ‘ ζΫ1

@@ -14,6 +14,13 @@
 <h1>Welcome to Monopoly Inholland</h1>
 <h2>Name: <?php echo $user['userName'] ?? '[Name Unavailable]'; ?></h2>
 <h2>Amount Money: $<?php echo $user['balanceAmount'] ?? '---'; ?></h2>
+
+<?php if ($currentPlayerID == $userID): ?>
+    <div id="turn-message" class="turn-message"><h3><strong>It's your turn!</strong></h3></div>
+    <button class="btn-primary-finish" onclick="finishTurn()">Finish Turn</button>
+<?php endif; ?>
+
+
 <?php if (!empty($properties)): ?>
     <table>
         <thead>
