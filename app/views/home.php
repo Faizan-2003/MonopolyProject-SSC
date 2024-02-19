@@ -11,7 +11,7 @@
 
 </head>
 <body>
-<h1>Welcome to Monopoly Inholland</h1>
+<h1>Monopoly Inholland - Player  View</h1>
 <h2>Name: <?php echo $user['userName'] ?? '[Name Unavailable]'; ?></h2>
 <h2>Amount Money: $<?php echo $user['balanceAmount'] ?? '---'; ?></h2>
 
@@ -53,7 +53,6 @@
 
 <button class="btn-primary" onclick="trade()">Trade</button>
 <button class="btn-primary" onclick="build()">Build</button>
-<button class="btn-primary" onclick="buy()">Buy</button>
 <button class="btn-primary" onclick="sell()">Sell</button>
 <button class="btn-primary" onclick="mortgage()">Mortgage</button>
 <button class="btn-primary" onclick="redeem()">Redeem</button>

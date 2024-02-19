@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="/images/ssc.png">
-    <title>Home | Monopoly Inholland</title>
+    <title>Admin | Monopoly Inholland</title>
     <style>
         <?php include __DIR__ . '/../public/CSS/Style.css'; ?>
     </style>
@@ -13,7 +13,7 @@
 
 <body>
 <a href="/homepage"><img class="mb-4" src="/images/ssc.png" alt="Website Logo" width="350" height="150"></a>
-    <h1>Welcome to Monopoly Inholland Admin Portal</h1>
+    <h1>Monopoly Inholland - Admin Portal</h1>
 <button class="btn-primary" onclick="window.location.href='/adduser'">Add User Page</button>
 
 <table class="second-table">

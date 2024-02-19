@@ -46,7 +46,7 @@ form input[type="submit"]:hover {
 body {
 
     background: rgb(161, 7, 2);
-    background: linear-gradient(135deg, rgba(161, 7, 2, 1) 0%, rgba(244, 71, 8, 1) 50%, rgba(250, 166, 19, 1) 100%);
+    background: linear-gradient(135deg, rgb(255, 255, 255) 0%, rgb(162, 137, 128) 50%, rgb(232, 219, 194) 100%);
 }
 .AddUserForm {
     margin: 0 auto;
