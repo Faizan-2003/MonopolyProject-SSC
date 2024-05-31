@@ -1,5 +1,4 @@
 
-kphp:S103!"KSplit this 138 characters long line (which is greater than 120 authorized).(É÷ø˜ÿÿÿÿÿ8Šß‹ÁÛ1
 ephp:S101"JRename class "router" to match the regular expression ^[A-Z][a-zA-Z0-9]*$.(ıùÙ¬8ì—èÚ1
 ƒphp:S117"iRename this local variable "$PropertiesRepository" to match the regular expression ^[a-z_][a-zA-Z0-9_]*$.(êé£M8ê¢ãÛ1
 €php:S117"fRename this local variable "$PropertiesService" to match the regular expression ^[a-z_][a-zA-Z0-9_]*$.(†Œt8â¶‹ÁÛ1

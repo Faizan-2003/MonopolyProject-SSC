@@ -16,6 +16,8 @@ services:
       dockerfile: PHP.Dockerfile
     volumes:
       - ./app:/app
+    ports:
+      - "9000:9000"  # Ensure the PHP-FPM port is exposed
   mysql:
     image: mariadb:latest
     environment:

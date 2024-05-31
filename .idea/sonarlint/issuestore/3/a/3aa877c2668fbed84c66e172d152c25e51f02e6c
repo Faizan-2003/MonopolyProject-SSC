@@ -1,6 +1,6 @@
 
-TWeb:TableWithoutCaptionCheck" Add a description to this table.(¿‰˜ÿÿÿÿÿ8¿æªåÛ1
-TWeb:TableWithoutCaptionCheck<" Add a description to this table.(Ã‘Å²øÿÿÿÿ8ı”©ÁÛ1
+,Web:MouseEventWithoutKeyboardEquivalentCheck2"BAdd a 'onKeyPress|onKeyDown|onKeyUp' attribute to this <span> tag.(à»îå8–°±ôü1
+ß	Web:S68482"ÂAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(à»îå8˜°±ôü1
 B	php:S2003	"&Replace "include" with "include_once".(Š¾‹É8Ú€Õ¼Û1
 B	php:S2003O"&Replace "include" with "include_once".(Ú®ã‚8•Ÿ×¼Û1
 h	php:S4833	"LReplace "include" with namespace import mechanism through the "use" keyword.(Š¾‹É8Ú€Õ¼Û1

@@ -1,7 +1,6 @@
-# Use the official PHP image with FPM
-FROM php:fpm
+FROM php:7.4-fpm
 
-# Install PDO and MySQL extensions
+# Install necessary PHP extensions
 RUN docker-php-ext-install pdo pdo_mysql
 
 # Copy Composer from the Composer image
