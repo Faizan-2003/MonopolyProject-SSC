@@ -217,3 +217,35 @@ document.addEventListener("DOMContentLoaded", function() {
             });
     });
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    const deleteUserForm = document.getElementById("deleteUserForm");
+
+    deleteUserForm.addEventListener("submit", function(event) {
+        event.preventDefault(); // Prevent default form submission
+
+        const formData = new FormData(this);
+
+        fetch('/deleteuser', {
+            method: 'POST',
+            body: formData
+        })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok.');
+                }
+                return response.text();
+            })
+            .then(data => {
+                // Handle success (optional)
+                console.log('User deleted successfully:', data);
+                // Reload the page or update UI as needed
+                window.location.reload();
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                // Display error message or handle error accordingly (optional)
+            });
+    });
+});
+

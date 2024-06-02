@@ -102,6 +102,11 @@ class UserRepository extends Repository {
         $stmt->bindParam(':userId', $userId);
         $stmt->execute();
     }
+    public function deleteUser($userID) {
+        $query = "DELETE FROM User WHERE userID = :userID";
+        $stmt = $this->connection->prepare($query);
+        return $stmt->execute(['userID' => $userID]);
+    }
 
 }
 ?>

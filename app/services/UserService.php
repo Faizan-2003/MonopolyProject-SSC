@@ -37,6 +37,9 @@ class UserService {
         return $this->userRepository->updateUserBalance($userID, $balance);
     }
 
+    public function deleteUser($userID) {
+        return $this->userRepository->deleteUser($userID);
+    }
 
 
 }

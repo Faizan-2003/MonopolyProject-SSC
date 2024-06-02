@@ -1,8 +1,7 @@
 
-kphp:S103"KSplit this 123 characters long line (which is greater than 120 authorized).(Ïš³Àşÿÿÿÿ8ÂİÀŒÛ1
->	php:S1780)"Remove this closing tag "?>".(Ö‘äÏúÿÿÿÿ8Ä±§çÚ1
-m	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(‘¯Å‚8Ä±§çÚ1
-m	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(·¾³8÷ ¨ŒÛ1
-m	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(Á—£ı8ÂİÀŒÛ1
-r	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(´ğê“ÿÿÿÿÿ8ÂİÀŒÛ1
-m	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(’Ñüé8ä“ÊŒÛ1
+d	php:S1780)"Remove this closing tag "?>".(Ö‘äÏúÿÿÿÿ8Ä±§çÚ1J$bb550147-7828-4124-9058-af4ece3f352c
+“	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(‘¯Å‚8Ä±§çÚ1J$8eb94325-c8a6-4bdd-a660-a25ce45ca780
+“	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(·¾³8÷ ¨ŒÛ1J$4144b81e-2459-4d0f-825b-82ab72d5fd5f
+“	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(Á—£ı8ÂİÀŒÛ1J$b80fb5d3-396d-4f0f-b1b5-6c56a6694622
+˜	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(´ğê“ÿÿÿÿÿ8ÂİÀŒÛ1J$edca07c4-78c1-4e31-a464-9acdba87003f
+“	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(’Ñüé8ä“ÊŒÛ1J$7158a498-84ea-4972-9cb6-f1e0bef8d58d

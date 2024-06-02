@@ -67,36 +67,10 @@ class router
                 $controller->assignProperty($_POST);
                 break;
 
-            case 'api/getpropertydetails':
-                require __DIR__ . '/../api/getPropertyDetails.php';
-                break;
-            case 'api/finishTurn':
-                require __DIR__ . '/../api/PlayersTurn.php';
-                break;
-            case 'api/adsbyloggeduser':
-                require __DIR__ . '/../API/AdsController.php';
-                $controller = new AdsController();
-                $controller->sendAdsByLoggedUser();
-                break;
-            case 'api/adsbypurchaseduser':
-                require __DIR__ . '/../API/AdsController.php';
-                $controller = new AdsController();
-                $controller->sendPurchasedAdsByLoggedUser();
-                break;
-            case 'api/updateAd':
-                require __DIR__ . '/../API/AdsController.php';
-                $controller = new AdsController();
-                $controller->operateAdRequest();
-                break;
-            case 'api/editAd':
-                require __DIR__ . '/../API/AdsController.php';
-                $controller = new AdsController();
-                $controller->handleAdEditRequest();
-                break;
-            case 'api/searchproducts':
-                require __DIR__ . '/../API/AdsController.php';
-                $controller = new AdsController();
-                $controller->handleSearchRequest();
+            case 'deleteuser':
+                require __DIR__ . "/../controllers/AdminPortalController.php";
+                $controller = new AdminPortalController(new PropertiesService(new PropertiesRepository()), new UserService(new UserRepository()));
+                $controller->deleteUser($_POST);
                 break;
             default:
                 http_response_code(404);

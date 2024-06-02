@@ -40,6 +40,17 @@ class AdminPortalController {
         echo json_encode(['status' => 'success', 'message' => 'Property assigned successfully.']);
         exit();
     }
+    public function deleteUser(array $postData): void {
+        $userId = $postData['userID'];
+
+        // Delete the user
+        $this->userService->deleteUser($userId);
+
+        // Redirect back to the admin portal
+        header("Location: /adminportal");
+        exit();
+    }
+
 
 }
 ?>

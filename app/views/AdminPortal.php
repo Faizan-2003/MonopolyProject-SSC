@@ -15,7 +15,18 @@
 <a href="/homepage"><img class="mb-4" src="/images/ssc.png" alt="Website Logo" width="350" height="150"></a>
 <h1>Monopoly Inholland - Admin Portal</h1>
 <button class="btn-primary" onclick="window.location.href='/adduser'">Add User Page</button>
-</br>
+
+<form id="deleteUserForm">
+    <h2>Delete User</h2>
+    <select name="userID">
+        <?php foreach ($users as $user): ?>
+            <option value="<?php echo $user['userID']; ?>"><?php echo $user['userName']; ?></option>
+        <?php endforeach; ?>
+    </select>
+    <button type="submit">Delete User</button>
+</form>
+
+<br>
 
 <h2>List of Users and Balances</h2>
 
@@ -36,7 +47,7 @@
                 <form class="updateBalanceForm" data-userid="<?php echo $user['userID']; ?>">
                     <input type="hidden" name="userID" value="<?php echo $user['userID']; ?>">
                     <input type="number" name="newBalance" value="<?php echo $user['balanceAmount']; ?>">
-                    <button type="submit">Update</button>
+                    <button class="update" type="submit">Update</button>
                 </form>
                 <div class="updateMessage" id="updateMessage-<?php echo $user['userID']; ?>"></div>
             </td>
@@ -44,6 +55,8 @@
     <?php endforeach; ?>
     </tbody>
 </table>
+<br>
+<h2>Assign Property</h2>
 
 <form id="assignPropertyForm">
     <select name="userID">
@@ -58,6 +71,7 @@
     </select>
     <button type="submit">Assign Property</button>
 </form>
+
 
 <table class="second-table">
     <thead>
@@ -79,6 +93,7 @@
 </table>
 <script>
     <?php include __DIR__ . '/../public/Javascript/Monopoly.js'; ?>
-</script></body>
+</script>
+</body>
 
 </html>

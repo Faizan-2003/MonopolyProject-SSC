@@ -1,40 +1,27 @@
 
-‹php:S101"JRename class "router" to match the regular expression ^[A-Z][a-zA-Z0-9]*$.(ıùÙ¬8ì—èÚ1J$a6f4b277-eed3-46bb-a8b2-1ebde61f67f9
-©php:S117"iRename this local variable "$PropertiesRepository" to match the regular expression ^[a-z_][a-zA-Z0-9_]*$.(êé£M8ê¢ãÛ1J$1b15a62f-2150-4d2e-8020-79110844e6b5
-¦php:S117"fRename this local variable "$PropertiesService" to match the regular expression ^[a-z_][a-zA-Z0-9_]*$.(†Œt8â¶‹ÁÛ1J$a5ed2b81-6973-426a-bed0-89891fc97036
-©php:S117,"cRename this local variable "$UserRepository" to match the regular expression ^[a-z_][a-zA-Z0-9_]*$.(ˆÜ£†úÿÿÿÿ8à™±Ôı1J$97c0722b-a205-4b90-88b6-e5c3cfe56860
-¦php:S117/"`Rename this local variable "$UserService" to match the regular expression ^[a-z_][a-zA-Z0-9_]*$.(‘¼¹„ûÿÿÿÿ8ïë¯Ôı1J$715a3431-46ad-42d2-b840-cb836364f267
-¬	php:S1192*"jDefine a constant instead of duplicating this literal "/../controllers/AdminPortalController.php" 3 times.(š©ı•8§­ÑÕı1J$9997295c-9f49-4db4-b39b-e017d052c2b5
-œ	php:S1192M"ZDefine a constant instead of duplicating this literal "/../API/AdsController.php" 5 times.(·ó†8ë–Â‹Û1J$17294fe3-42f6-450e-a38f-38ce493b9359
-h	php:S2003"&Replace "require" with "require_once".(¶Ğ©Õ8ì—èÚ1J$b75503b5-feda-4bd8-9321-e9def076d3bd
-h	php:S2003"&Replace "require" with "require_once".(êÜØ8ì—èÚ1J$033438f7-b785-4db9-bda4-8262f9070199
-m	php:S2003"&Replace "require" with "require_once".(©¿Ç‚ùÿÿÿÿ8ë–Â‹Û1J$b592e0d1-58ea-4aa7-a10a-8e25b04c1554
-h	php:S2003%"&Replace "require" with "require_once".(¶Ğ©Õ8ì–Â‹Û1J$71d978c1-429f-423d-b834-b7feb34833de
-h	php:S2003*"&Replace "require" with "require_once".(š©ı•8ì–Â‹Û1J$5713fde1-f466-4329-acdf-91d9e1bb9a8d
-h	php:S20035"&Replace "require" with "require_once".(š©ı•8í–Â‹Û1J$28a97907-6753-4384-b9af-de76b168959f
-h	php:S2003A"&Replace "require" with "require_once".(š©ı•8í–Â‹Û1J$4b39ec44-21a4-41f4-9a52-6cf1869f1efa
-h	php:S2003G"&Replace "require" with "require_once".(·­‡ù8‘íó½Û1J$3a793211-8b3e-4bbd-ad5a-ae0b8f2026ab
-m	php:S2003J"&Replace "require" with "require_once".(ë…ØÇûÿÿÿÿ8µîçåÛ1J$633dd7ac-9bc4-4f4c-8396-6d51e344560f
-h	php:S2003M"&Replace "require" with "require_once".(·ó†8ÙÈ®Ôı1J$7b54bdef-9eb4-4986-85c1-b427c8f61ad8
-h	php:S2003R"&Replace "require" with "require_once".(·ó†8õÆÔı1J$7b4d4639-3871-43c6-bc5b-77083a71f125
-h	php:S2003W"&Replace "require" with "require_once".(·ó†8óµˆÕı1J$dc21f2a0-7268-4e02-b506-fe54d0ce8074
-h	php:S2003\"&Replace "require" with "require_once".(·ó†8™çÍÖı1J$efc0190b-2c94-436e-9b0c-91c8bd7c51e0
-B	php:S2003a"&Replace "require" with "require_once".(·ó†8‡ŠòÖı1
-“	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(Ö³á¤8°ŒÔŒÛ1J$f305dce0-caf7-407b-aa44-b59667c77565
-˜	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(ıÔÊ­ıÿÿÿÿ8®¡ÔŒÛ1J$83f69e53-18d4-477c-995e-bc498c0bc8f6
-“	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(ˆ–“8§¢ÁÛ1J$33016121-0c70-42a5-b155-bc75ea077f56
-˜	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(éÙÅüÿÿÿÿ8û–‘ÁÛ1J$7ca3e5c4-fb9b-4420-b77f-0fb9337352d7
-	php:S4833"LReplace "require" with namespace import mechanism through the "use" keyword.(¶Ğ©Õ8ì—èÚ1J$9e2ad2cb-4866-4530-bf41-429ae2fde520
-	php:S4833"LReplace "require" with namespace import mechanism through the "use" keyword.(êÜØ8ì—èÚ1J$e063a462-1025-42b8-beff-92746d5945ea
-“	php:S4833"LReplace "require" with namespace import mechanism through the "use" keyword.(©¿Ç‚ùÿÿÿÿ8ì—èÚ1J$e95eed68-c83c-4f84-ac09-26bb7e04a0eb
-	php:S4833%"LReplace "require" with namespace import mechanism through the "use" keyword.(¶Ğ©Õ8î–Â‹Û1J$19fcbef7-4761-4506-bd41-a5b82281fd98
-	php:S4833*"LReplace "require" with namespace import mechanism through the "use" keyword.(š©ı•8î–Â‹Û1J$c920c160-f12b-48c4-825d-919650633b6c
-	php:S48335"LReplace "require" with namespace import mechanism through the "use" keyword.(š©ı•8î–Â‹Û1J$62898e71-93af-44c5-a200-8151784cc340
-	php:S4833A"LReplace "require" with namespace import mechanism through the "use" keyword.(š©ı•8ï–Â‹Û1J$763bec96-e954-4089-8b3d-a78ef5821cd5
-	php:S4833G"LReplace "require" with namespace import mechanism through the "use" keyword.(·­‡ù8‘íó½Û1J$28e5449e-d782-43a6-b566-5ac795604b3e
-“	php:S4833J"LReplace "require" with namespace import mechanism through the "use" keyword.(ë…ØÇûÿÿÿÿ8µîçåÛ1J$789be8be-6a25-4a6c-a55e-a966a4e5f0ca
-	php:S4833M"LReplace "require" with namespace import mechanism through the "use" keyword.(·ó†8ÛÈ®Ôı1J$dd3596c7-7203-487e-bf83-d843240f4791
-	php:S4833R"LReplace "require" with namespace import mechanism through the "use" keyword.(·ó†8õÆÔı1J$f51a4fc2-b70d-40c0-972d-cc86f61f03b0
-	php:S4833W"LReplace "require" with namespace import mechanism through the "use" keyword.(·ó†8øµˆÕı1J$183c963e-890f-4868-b0c5-0b702fecb1a4
-	php:S4833\"LReplace "require" with namespace import mechanism through the "use" keyword.(·ó†8›çÍÖı1J$fe4fbf17-fa5d-4543-b61c-e53f0b6d85e3
-h	php:S4833a"LReplace "require" with namespace import mechanism through the "use" keyword.(·ó†8ˆŠòÖı1
+‹php:S101"JRename class "router" to match the regular expression ^[A-Z][a-zA-Z0-9]*$.(ıùÙ¬8ì—èÚ1J$3b9c398f-db99-4ec7-a63d-92799a451e08
+©php:S117"iRename this local variable "$PropertiesRepository" to match the regular expression ^[a-z_][a-zA-Z0-9_]*$.(êé£M8ê¢ãÛ1J$c412b5b1-2265-48cc-a573-f554622f1b6c
+¦php:S117"fRename this local variable "$PropertiesService" to match the regular expression ^[a-z_][a-zA-Z0-9_]*$.(†Œt8â¶‹ÁÛ1J$823aacd9-1bfb-444e-ad79-668a93d5ff92
+©php:S117,"cRename this local variable "$UserRepository" to match the regular expression ^[a-z_][a-zA-Z0-9_]*$.(ˆÜ£†úÿÿÿÿ8à™±Ôı1J$946e3cb2-b363-4c56-ac70-09854241f888
+¦php:S117/"`Rename this local variable "$UserService" to match the regular expression ^[a-z_][a-zA-Z0-9_]*$.(‘¼¹„ûÿÿÿÿ8ïë¯Ôı1J$ee231e5c-2e8d-48ca-a7d3-f3d4a60670d3
+¬	php:S1192*"jDefine a constant instead of duplicating this literal "/../controllers/AdminPortalController.php" 4 times.(š©ı•8§­ÑÕı1J$a3a581f4-de27-44fc-a8ca-21abd98c9e6d
+h	php:S2003"&Replace "require" with "require_once".(¶Ğ©Õ8ì—èÚ1J$ebb81c7f-d1bd-450b-a5f6-2dde23d743b3
+h	php:S2003"&Replace "require" with "require_once".(êÜØ8ì—èÚ1J$3324d9aa-5061-4206-9a35-3a4348038839
+m	php:S2003"&Replace "require" with "require_once".(©¿Ç‚ùÿÿÿÿ8ë–Â‹Û1J$5683bc80-5efe-4d48-9741-7472d19059fe
+h	php:S2003%"&Replace "require" with "require_once".(¶Ğ©Õ8ì–Â‹Û1J$8d9d02e1-fec8-4449-9778-000e5fddf264
+h	php:S2003*"&Replace "require" with "require_once".(š©ı•8ì–Â‹Û1J$14dc2109-a693-49b4-8b20-4de9f14342dd
+h	php:S20035"&Replace "require" with "require_once".(š©ı•8í–Â‹Û1J$b25e6ee7-3607-4fa4-b018-87a9be8e6dc4
+h	php:S2003A"&Replace "require" with "require_once".(š©ı•8í–Â‹Û1J$c901bc5f-6af9-47f8-a14c-18196b68a8b0
+h	php:S2003G"&Replace "require" with "require_once".(š©ı•8ôññ×ı1J$bc3d07a6-cfa0-4711-bad1-937b96098399
+“	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(Ö³á¤8°ŒÔŒÛ1J$734dd6e6-e2d0-4d99-85cd-6566609dad01
+˜	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(ıÔÊ­ıÿÿÿÿ8®¡ÔŒÛ1J$4ce75750-9c15-466d-a29b-0bb8cc34344f
+“	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(ˆ–“8§¢ÁÛ1J$8c86a7f6-94a5-49ec-b656-5c2394266841
+˜	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(éÙÅüÿÿÿÿ8û–‘ÁÛ1J$0496271e-cb9d-4cbd-ad63-ecc968d94bc7
+	php:S4833"LReplace "require" with namespace import mechanism through the "use" keyword.(¶Ğ©Õ8ì—èÚ1J$423c376c-f277-463e-9e90-b93715c0a8e4
+	php:S4833"LReplace "require" with namespace import mechanism through the "use" keyword.(êÜØ8ì—èÚ1J$277b65c7-8ed6-4695-9b23-7f118876e915
+“	php:S4833"LReplace "require" with namespace import mechanism through the "use" keyword.(©¿Ç‚ùÿÿÿÿ8ì—èÚ1J$bf5c46de-4160-4605-81e8-0e441d6eeb0a
+	php:S4833%"LReplace "require" with namespace import mechanism through the "use" keyword.(¶Ğ©Õ8î–Â‹Û1J$ef0fae21-3118-4170-99b7-6620731de87e
+	php:S4833*"LReplace "require" with namespace import mechanism through the "use" keyword.(š©ı•8î–Â‹Û1J$f2592ade-59ce-4f41-923f-3bfdec2ede29
+	php:S48335"LReplace "require" with namespace import mechanism through the "use" keyword.(š©ı•8î–Â‹Û1J$a586601e-1466-44f0-afc8-5971e78dd3b6
+	php:S4833A"LReplace "require" with namespace import mechanism through the "use" keyword.(š©ı•8ï–Â‹Û1J$51181632-700f-47a0-960d-e14746c99283
+	php:S4833G"LReplace "require" with namespace import mechanism through the "use" keyword.(š©ı•8õññ×ı1J$bf6e99e7-62b8-4337-bc2a-655cb54c4b8f
