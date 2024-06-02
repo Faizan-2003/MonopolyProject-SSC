@@ -83,7 +83,21 @@ class UserRepository extends Repository {
             return $row['userID'];
         }
     }
+    public function getAllUsers() {
+        $query = "SELECT userID, userName, balanceAmount, gameName, properties 
+              FROM User
+              WHERE gameName NOT IN ('Boat', 'Marker')";
+        $stmt = $this->connection->prepare($query);
+        $stmt->execute();
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
 
-
+    public function updateUserBalance($userId, $newBalance) {
+        $query = "UPDATE User SET balanceAmount = :newBalance WHERE userID = :userId";
+        $stmt = $this->connection->prepare($query);
+        $stmt->bindParam(':newBalance', $newBalance);
+        $stmt->bindParam(':userId', $userId);
+        $stmt->execute();
+    }
 }
 ?>

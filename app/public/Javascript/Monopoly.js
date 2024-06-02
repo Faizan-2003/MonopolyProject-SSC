@@ -150,4 +150,36 @@ function finishTurn() {
             console.error('Error finishing turn:', error);
         });
 }
+document.addEventListener("DOMContentLoaded", function() {
+    const forms = document.querySelectorAll(".updateBalanceForm");
 
+    forms.forEach(form => {
+        form.addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent default form submission
+
+            const formData = new FormData(this);
+            const userId = this.dataset.userid;
+            const messageDiv = document.getElementById(`updateMessage-${userId}`);
+
+            fetch('/updatebalance', {
+                method: 'POST',
+                body: formData
+            })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok.');
+                    }
+                    return response.text();
+                })
+                .then(data => {
+                    // Display success message
+                    messageDiv.textContent = 'Balance updated successfully.';
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    // Display error message
+                    messageDiv.textContent = 'An error occurred while updating balance.';
+                });
+        });
+    });
+});

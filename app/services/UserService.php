@@ -30,7 +30,12 @@ class UserService {
     public function getNextPlayerID($currentPlayerID, $connection) {
         return $this->userRepository->getNextPlayerID($currentPlayerID, $connection);
     }
-
+    public function getAllUsers() {
+        return $this->userRepository->getAllUsers();
+    }
+    public function updateBalance($userID, $balance) {
+        return $this->userRepository->updateUserBalance($userID, $balance);
+    }
 
 }
 ?>

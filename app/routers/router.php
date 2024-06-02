@@ -41,10 +41,27 @@ class router
             case 'adminportal':
                 require __DIR__ . "/../controllers/AdminPortalController.php";
                 $PropertiesRepository = new PropertiesRepository();
+                $UserRepository = new UserRepository();
+
                 $PropertiesService = new PropertiesService($PropertiesRepository);
-                $controller = new AdminPortalController($PropertiesService);
+                $UserService = new UserService($UserRepository); // Instantiate UsersService correctly
+                $controller = new AdminPortalController($PropertiesService, $UserService);
+
                 $controller->displayAdminPortal();
                 break;
+            case 'updatebalance':
+                require __DIR__ . "/../controllers/AdminPortalController.php";
+                $PropertiesRepository = new PropertiesRepository();
+                $UserRepository = new UserRepository();
+
+                $PropertiesService = new PropertiesService($PropertiesRepository);
+                $UserService = new UserService($UserRepository);
+                $controller = new AdminPortalController($PropertiesService, $UserService);
+
+                // Call the updateBalance method with the POST data
+                $controller->updateBalance($_POST);
+                break;
+
             case 'api/getpropertydetails':
                 require __DIR__ . '/../api/getPropertyDetails.php';
                 break;

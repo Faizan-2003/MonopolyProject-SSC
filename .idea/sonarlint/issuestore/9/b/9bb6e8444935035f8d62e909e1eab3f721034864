@@ -1,8 +1,8 @@
 
->	php:S1780C"Remove this closing tag "?>".(Ö‘äÏúÿÿÿÿ8¯á„ÁÛ1
-L	php:S1481"0Remove this unused "$properties" local variable.(Üû¼£8ûùìåÛ1
-V	php:S1481 ":Remove this unused "$additionalproperties" local variable.(Äú±8ûùìåÛ1
-Q	php:S1481$"5Remove this unused "$currentPlayerID" local variable.(Úş¥®8ú‘ æÛ1
-m	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(äå’8ûùìåÛ1
-m	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(‘¯Å‚8ûùìåÛ1
-r	php:S4833&"QReplace "require_once" with namespace import mechanism through the "use" keyword.(ƒŒõ¡øÿÿÿÿ8ú‘ æÛ1
+>	php:S1780C"Remove this closing tag "?>".(Ö‘äÏúÿÿÿÿ8›âšÔı1
+L	php:S1481"0Remove this unused "$properties" local variable.(Üû¼£8œâšÔı1
+V	php:S1481 ":Remove this unused "$additionalproperties" local variable.(Äú±8œâšÔı1
+Q	php:S1481$"5Remove this unused "$currentPlayerID" local variable.(Úş¥®8œâšÔı1
+“	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(äå’8ÓŞîÓı1J$98a46cee-d193-427c-a091-7b7ffcd4c290
+m	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(‘¯Å‚8œâšÔı1
+r	php:S4833&"QReplace "require_once" with namespace import mechanism through the "use" keyword.(ƒŒõ¡øÿÿÿÿ8œâšÔı1

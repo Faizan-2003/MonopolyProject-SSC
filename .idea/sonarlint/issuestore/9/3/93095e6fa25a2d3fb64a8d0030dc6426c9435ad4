@@ -1,7 +1,7 @@
 
-fphp:S103B"KSplit this 129 characters long line (which is greater than 120 authorized).(¥Òê´8ˆ‰ÙåÛ1
-d	php:S1784?"CExplicitly mention the visibility of this method "getNextPlayerID".(ÀÕàşÿÿÿÿ8‰‰ÙåÛ1
->	php:S1780Y"Remove this closing tag "?>".(Ö‘äÏúÿÿÿÿ8ä‘çÚ1
-‰	php:S1488;"hImmediately return this expression instead of assigning it to the temporary variable "$activePlayerIDs".(Æ§ÔØıÿÿÿÿ8”¦æÛ1
-~	php:S4144"bUpdate this method so that its implementation is not identical to "findUserByUsername" on line 19.(Áöó8»Ï‚èÚ1
-r	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(úò­±ûÿÿÿÿ8ä‘çÚ1
+‚	php:S1131W"@Remove the useless trailing whitespaces at the end of this line.(ä¶Š£8‘ê¿Ôı1J$32c1ae3b-229c-49c7-ae86-b22930dc2588
+Š	php:S1784?"CExplicitly mention the visibility of this method "getNextPlayerID".(ÀÕàşÿÿÿÿ8‘ê¿Ôı1J$88b150fd-b88d-4a21-823e-d8490aa62f3e
+d	php:S1780g"Remove this closing tag "?>".(Ö‘äÏúÿÿÿÿ8‘ê¿Ôı1J$36d5029e-37e9-420a-b4ec-34b315e5e15f
+¯	php:S1488;"hImmediately return this expression instead of assigning it to the temporary variable "$activePlayerIDs".(Æ§ÔØıÿÿÿÿ8‘ê¿Ôı1J$cff5f88f-4339-4ec3-8b6c-c9b51c838a15
+¤	php:S4144"bUpdate this method so that its implementation is not identical to "findUserByUsername" on line 19.(Áöó8™ê¿Ôı1J$0d9b9b22-6598-4dce-a7bd-f072420c1ec6
+˜	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(úò­±ûÿÿÿÿ8›ê¿Ôı1J$308756d4-70e1-4bf9-8f91-510e2ba75b61
