@@ -1,12 +1,11 @@
 
-d	php:S1780!"Remove this closing tag "?>".(Ö‘äÏúÿÿÿÿ8Â…ÊÔı1J$3096e4b7-da88-409f-84dd-e90b80503efd
-œphp:S116"[Rename this field "$PropertiesService" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(‡Äî«8Ã…ÊÔı1J$a17d7794-2fe3-4a0a-b422-bfcd293691df
-–php:S116"URename this field "$UserService" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Ú«‹8Ã…ÊÔı1J$71691453-559f-42b3-8931-9d987257322c
-¢php:S117"aRename this parameter "$PropertiesService" to match the regular expression ^[a-z_][a-zA-Z0-9_]*$.(À–²Ó8Ä…ÊÔı1J$f2d2c707-d3c7-441f-ab72-497a4680c751
-œphp:S117"[Rename this parameter "$UserService" to match the regular expression ^[a-z_][a-zA-Z0-9_]*$.(À–²Ó8Ä…ÊÔı1J$3273317e-297c-4a77-bc20-d5e87dca59f0
-	php:S1481":Remove this unused "$additionalproperties" local variable.(ëõ÷œşÿÿÿÿ8Ä…ÊÔı1J$3bd930e5-4e95-446b-9503-d1487ce5de6d
-r	php:S1481"+Remove this unused "$users" local variable.(±Ù³úÿÿÿÿ8Ä…ÊÔı1J$73acb054-5fda-46ca-b6b0-d05ec9caa2b0
-h	php:S2003"&Replace "require" with "require_once".(ËÉ®Æ8Å…ÊÔı1J$51049977-9fea-4165-a5e4-b4ab75e466fc
-“	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(‘¯Å‚8ş—ÇÔı1J$f4e1c873-1091-4f9a-935f-c65160084843
-“	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(ú²³Í8ş—ÇÔı1J$bd6af475-db2a-4501-9012-246b1ed9734a
-	php:S4833"LReplace "require" with namespace import mechanism through the "use" keyword.(ËÉ®Æ8Ç…ÊÔı1J$9578072a-d7ec-4330-b0ac-b5092953a2c2
+d	php:S1780-"Remove this closing tag "?>".(Ö‘äÏúÿÿÿÿ8©äìÕı1J$2cc6ea88-6ac0-4c43-884d-6dd88d28d484
+|	php:S1481":Remove this unused "$additionalproperties" local variable.(Äú±8îÎïÖı1J$de219a4f-eb03-4683-9850-b1490fdaa605
+r	php:S1481"+Remove this unused "$users" local variable.(¬È½®øÿÿÿÿ8îÎïÖı1J$4ca35285-b471-4d82-9e15-d9a69cb99bc5
+r	php:S1481"0Remove this unused "$properties" local variable.(Ö”Ô8îÎïÖı1J$2bf3e444-72a1-4f08-a823-c3005d4d645b
+h	php:S2003"&Replace "require" with "require_once".(±×ª³8óÎïÖı1J$6dccec4d-5e44-4c9d-89cc-4a57f76f3fba
+“	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(®§İ…8¬äìÕı1J$2eee98f9-383b-4975-aeae-cd82f46ab40d
+“	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(˜Ë‰Ã8·œ¬Öı1J$af0e6518-a28b-4faf-84db-92c41aa1b45c
+“	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(‘¯Å‚8·œ¬Öı1J$22d820d5-c532-4d69-be31-28f53d6c434b
+“	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(ú²³Í8·œ¬Öı1J$12386556-c4b7-4ec4-8aa5-cfaacf5faf30
+	php:S4833"LReplace "require" with namespace import mechanism through the "use" keyword.(±×ª³8õÎïÖı1J$f5d7188c-bd1c-4c6d-8a4d-b6e1c83aa4c6

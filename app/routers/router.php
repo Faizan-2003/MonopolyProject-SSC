@@ -61,6 +61,11 @@ class router
                 // Call the updateBalance method with the POST data
                 $controller->updateBalance($_POST);
                 break;
+            case 'assignproperty':
+                require __DIR__ . "/../controllers/AdminPortalController.php";
+                $controller = new AdminPortalController(new PropertiesService(new PropertiesRepository()), new UserService(new UserRepository()));
+                $controller->assignProperty($_POST);
+                break;
 
             case 'api/getpropertydetails':
                 require __DIR__ . '/../api/getPropertyDetails.php';

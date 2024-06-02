@@ -1,7 +1,10 @@
 <?php
 require_once __DIR__ . '/Repository.php';
+require_once __DIR__ . '/PropertiesRepository.php';
 
 class UserRepository extends Repository {
+    private $propertiesRepository;
+
     public function addUser(string $userName, string $gameName): bool
     {
         try {
@@ -99,5 +102,6 @@ class UserRepository extends Repository {
         $stmt->bindParam(':userId', $userId);
         $stmt->execute();
     }
+
 }
 ?>

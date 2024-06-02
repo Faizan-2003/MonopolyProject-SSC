@@ -13,7 +13,7 @@
 
 <body>
 <a href="/homepage"><img class="mb-4" src="/images/ssc.png" alt="Website Logo" width="350" height="150"></a>
-    <h1>Monopoly Inholland - Admin Portal</h1>
+<h1>Monopoly Inholland - Admin Portal</h1>
 <button class="btn-primary" onclick="window.location.href='/adduser'">Add User Page</button>
 </br>
 
@@ -45,6 +45,20 @@
     </tbody>
 </table>
 
+<form id="assignPropertyForm">
+    <select name="userID">
+        <?php foreach ($users as $user): ?>
+            <option value="<?php echo $user['userID']; ?>"><?php echo $user['userName']; ?></option>
+        <?php endforeach; ?>
+    </select>
+    <select name="propertyID">
+        <?php foreach ($properties as $property): ?>
+            <option value="<?php echo $property['propertyID']; ?>"><?php echo $property['propertyName']; ?></option>
+        <?php endforeach; ?>
+    </select>
+    <button type="submit">Assign Property</button>
+</form>
+
 <table class="second-table">
     <thead>
     <tr>
@@ -65,7 +79,6 @@
 </table>
 <script>
     <?php include __DIR__ . '/../public/Javascript/Monopoly.js'; ?>
-</script>
-</body>
+</script></body>
 
 </html>

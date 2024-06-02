@@ -25,28 +25,37 @@ class PropertiesRepository extends Repository {
         $stmt->execute();
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
+    public function getPropertyById($propertyId) {
+        // Perform a database query to fetch property details by property ID
+        $query = "SELECT propertyName, userID         FROM Properties
+                  WHERE propertyID = :propertyID";
+        $statement = $this->connection->prepare($query);
+        $statement->execute(['propertyID' => $propertyId]);
 
+        // Fetch the property details from the database
+        $propertyDetails = $statement->fetch(PDO::FETCH_ASSOC);
 
-    public function buyProperty($userID, $propertyID)
-    {
-        // Query to update the owner of the property
-        $query = "UPDATE Properties SET userID = ? WHERE propertyID = ?";
-        $stmt = $this->connection->prepare($query);
-        $stmt->bindParam(1, $userID);
-        $stmt->bindParam(2, $propertyID);
-        $stmt->execute();
-        return $stmt->rowCount() > 0;
-    }
-    public function sellProperty($propertyID)
-    {
-        // Query to update the owner of the property
-        $query = "UPDATE Properties SET userID = NULL WHERE propertyID = ?";
-        $stmt = $this->connection->prepare($query);
-        $stmt->bindParam(1, $propertyID);
-        $stmt->execute();
-        return $stmt->rowCount() > 0;
+        // Return the property details
+        return $propertyDetails;
     }
 
+    public function removePropertyFromAllUsers($propertyId) {
+        $query = "UPDATE Properties SET userID = NULL WHERE propertyID = :propertyId";
+        $stmt = $this->connection->prepare($query);
+        return $stmt->execute(['propertyId' => $propertyId]);
+    }
 
+    public function assignPropertyToUser($userId, $propertyId) {
+        $query = "UPDATE Properties SET userID = :userID WHERE propertyID = :propertyID";
+        $stmt = $this->connection->prepare($query);
+        return $stmt->execute(['userID' => $userId, 'propertyID' => $propertyId]);
+    }
+
+    public function getproperties() {
+        $query = "SELECT * FROM Properties";
+        $stmt = $this->connection->prepare($query);
+        $stmt->execute();
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
 }
 ?>

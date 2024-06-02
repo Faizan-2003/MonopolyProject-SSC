@@ -1,7 +1,9 @@
 
-‚	php:S1131W"@Remove the useless trailing whitespaces at the end of this line.(ä¶Š£8‘ê¿Ôı1J$32c1ae3b-229c-49c7-ae86-b22930dc2588
-Š	php:S1784?"CExplicitly mention the visibility of this method "getNextPlayerID".(ÀÕàşÿÿÿÿ8‘ê¿Ôı1J$88b150fd-b88d-4a21-823e-d8490aa62f3e
-d	php:S1780g"Remove this closing tag "?>".(Ö‘äÏúÿÿÿÿ8‘ê¿Ôı1J$36d5029e-37e9-420a-b4ec-34b315e5e15f
-¯	php:S1488;"hImmediately return this expression instead of assigning it to the temporary variable "$activePlayerIDs".(Æ§ÔØıÿÿÿÿ8‘ê¿Ôı1J$cff5f88f-4339-4ec3-8b6c-c9b51c838a15
-¤	php:S4144"bUpdate this method so that its implementation is not identical to "findUserByUsername" on line 19.(Áöó8™ê¿Ôı1J$0d9b9b22-6598-4dce-a7bd-f072420c1ec6
-˜	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(úò­±ûÿÿÿÿ8›ê¿Ôı1J$308756d4-70e1-4bf9-8f91-510e2ba75b61
+‚	php:S1131Z"@Remove the useless trailing whitespaces at the end of this line.(ä¶Š£8…øÕı1J$96cce96e-29e8-4fdf-972f-47d771df3074
+Š	php:S1784B"CExplicitly mention the visibility of this method "getNextPlayerID".(ÀÕàşÿÿÿÿ8…øÕı1J$615a85b2-7b2f-4e85-9212-c3098c23948b
+d	php:S1780k"Remove this closing tag "?>".(Ö‘äÏúÿÿÿÿ8†øÕı1J$afc33b87-6291-41cd-b325-832765531450
+¯	php:S1488>"hImmediately return this expression instead of assigning it to the temporary variable "$activePlayerIDs".(Æ§ÔØıÿÿÿÿ8‡øÕı1J$90e177ee-1f15-4cb7-bcc1-dd22fc664235
+€	php:S1068"9Remove this unused "$propertiesRepository" private field.(È­Íêüÿÿÿÿ8ß¼Öı1J$917c0559-3acc-4913-a0c4-9c4bc9f30e03
+¤	php:S4144"bUpdate this method so that its implementation is not identical to "findUserByUsername" on line 22.(Áöó8‡øÕı1J$5505617b-43cf-4e72-9d12-6d9d6caf4411
+˜	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(úò­±ûÿÿÿÿ8‰øÕı1J$f3e31644-81f9-4d37-bd9c-f9818131113b
+“	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(»İÅ8œ™‘Õı1J$bd2ef756-051c-4a28-a7d0-e9b588a23baf

@@ -1,33 +1,45 @@
 <?php
+require_once __DIR__ . '/../repositories/UserRepository.php';
+require_once __DIR__ . '/../repositories/PropertiesRepository.php';
 require_once __DIR__ . '/../services/UserService.php';
 require_once __DIR__ . '/../services/PropertiesService.php';
-class AdminPortalController {
-    private PropertiesService $PropertiesService;
-    private UserService $UserService;
 
-    public function __construct(PropertiesService $PropertiesService, UserService $UserService) {
-        $this->PropertiesService = $PropertiesService;
-        $this->UserService = $UserService;
+class AdminPortalController {
+    private PropertiesService $propertiesService;
+    private UserService $userService;
+
+    public function __construct(PropertiesService $propertiesService, UserService $userService) {
+        $this->propertiesService = $propertiesService;
+        $this->userService = $userService;
     }
 
     public function displayAdminPortal(): void {
-        $additionalproperties = $this->PropertiesService->getAllProperties();
-        $users = $this->UserService->getAllUsers(); // Assuming this method exists
+        $additionalproperties = $this->propertiesService->getAllProperties();
+        $users = $this->userService->getAllUsers();
+        $properties = $this->propertiesService->getproperties(); // Fetch all properties
 
-        require __DIR__ . "/../Views/AdminPortal.php";
+        require __DIR__ . '/../views/AdminPortal.php';
     }
+
     public function updateBalance(array $postData): void {
-        // Assuming $postData contains userId and newBalance from the form submission
         $userId = $postData['userID'];
         $newBalance = $postData['newBalance'];
-
-        // Update the balance amount in the database
-        $this->UserService->updateBalance($userId, $newBalance);
-
-        // Redirect back to the admin portal page
+        $this->userService->updateBalance($userId, $newBalance);
         header("Location: /adminportal");
         exit();
     }
-}
 
+    public function assignProperty(array $postData): void {
+        $userId = $postData['userID'];
+        $propertyId = $postData['propertyID'];
+
+        // Assign the property to the new user
+        $this->propertiesService->assignPropertyToUser($userId, $propertyId);
+
+        // Return a JSON response
+        echo json_encode(['status' => 'success', 'message' => 'Property assigned successfully.']);
+        exit();
+    }
+
+}
 ?>

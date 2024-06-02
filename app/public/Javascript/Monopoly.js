@@ -182,4 +182,38 @@ document.addEventListener("DOMContentLoaded", function() {
                 });
         });
     });
+
+    // Handle the assign property form via AJAX
+    document.getElementById("assignPropertyForm").addEventListener("submit", function(event) {
+        event.preventDefault(); // Prevent default form submission
+
+        const formData = new FormData(this);
+
+        fetch('/assignproperty', {
+            method: 'POST',
+            body: formData
+        })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok.');
+                }
+                return response.json(); // Parse JSON response
+            })
+            .then(data => {
+                if (data.status === 'success') {
+                    // Display success message or update UI if needed
+                    console.log('Property assigned successfully:', data.message);
+                    alert('Property assigned successfully.');
+
+                    // Optionally, update the UI to reflect the changes without reloading the page
+                    // You can dynamically update the property owner here
+                } else {
+                    throw new Error(data.message);
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('An error occurred while assigning the property. Please try again.');
+            });
+    });
 });

@@ -1,6 +1,7 @@
 
-‚	php:S1131"@Remove the useless trailing whitespaces at the end of this line.(úšè‡8é£¡ÁÛ1J$ff87517d-5438-4cb1-a4dd-6fcd9be20493
-	php:S1784"FExplicitly mention the visibility of this method "getPropertyDetails".(Şñˆøúÿÿÿÿ8ôÎ¼Û1J$06644131-c442-460b-9936-00fc5605a63e
-d	php:S17804"Remove this closing tag "?>".(Ö‘äÏúÿÿÿÿ8ôÎ¼Û1J$2f4b717f-8057-46ec-81cf-363088d591ea
-¯	php:S1488"hImmediately return this expression instead of assigning it to the temporary variable "$propertyDetails".(òªóúÿÿÿÿ8ôÎ¼Û1J$6bd91d8c-ba27-49c0-9659-677874e561c9
-˜	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(úò­±ûÿÿÿÿ8àÆ¼Û1J$66f8424c-3ce1-4126-badf-52b59b37ce60
+‚	php:S1131"@Remove the useless trailing whitespaces at the end of this line.(úšè‡8ÈªûÖı1J$9ccd4887-fa31-476c-bcf7-f8110808ea35
+	php:S1784"FExplicitly mention the visibility of this method "getPropertyDetails".(Şñˆøúÿÿÿÿ8ÉªûÖı1J$7608169b-278a-4bcd-9605-7881e1a12fc8
+d	php:S1780="Remove this closing tag "?>".(Ö‘äÏúÿÿÿÿ8ÊªûÖı1J$f52e62b2-2d5b-4368-9434-94c92722954a
+¯	php:S1488"hImmediately return this expression instead of assigning it to the temporary variable "$propertyDetails".(òªóúÿÿÿÿ8ËªûÖı1J$0e3cde26-f9a0-468a-bef7-26471a273997
+¯	php:S1488$"hImmediately return this expression instead of assigning it to the temporary variable "$propertyDetails".(òªóúÿÿÿÿ8ËªûÖı1J$26129a32-90e0-476b-be30-0fb036af8e18
+˜	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(úò­±ûÿÿÿÿ8ËªûÖı1J$5553725f-8404-41a6-9390-2db35712515f

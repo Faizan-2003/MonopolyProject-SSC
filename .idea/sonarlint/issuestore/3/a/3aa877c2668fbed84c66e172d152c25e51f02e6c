@@ -1,7 +1,7 @@
 
-TWeb:TableWithoutCaptionCheck" Add a description to this table.(¿‰˜ÿÿÿÿÿ8¿æªåÛ1
-TWeb:TableWithoutCaptionCheck<" Add a description to this table.(Ã‘Å²øÿÿÿÿ8ı”©ÁÛ1
-B	php:S2003	"&Replace "include" with "include_once".(Š¾‹É8Ú€Õ¼Û1
-B	php:S2003O"&Replace "include" with "include_once".(Ú®ã‚8•Ÿ×¼Û1
-h	php:S4833	"LReplace "include" with namespace import mechanism through the "use" keyword.(Š¾‹É8Ú€Õ¼Û1
-h	php:S4833O"LReplace "include" with namespace import mechanism through the "use" keyword.(Ú®ã‚8•Ÿ×¼Û1
+§,Web:MouseEventWithoutKeyboardEquivalentCheck2"BAdd a 'onKeyPress|onKeyDown|onKeyUp' attribute to this <span> tag.(à»îå8–°±ôü1J$5a34148b-14b5-4e70-88ab-3df460038c17
+…	Web:S68482"ÂAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(à»îå8˜°±ôü1J$6ea670f8-901f-4318-836d-aabe7f16d7d1
+h	php:S2003	"&Replace "include" with "include_once".(Š¾‹É8Ú€Õ¼Û1J$36973ce0-464f-4836-8064-9881d81aa13a
+h	php:S2003O"&Replace "include" with "include_once".(Ú®ã‚8•Ÿ×¼Û1J$bb61fefd-c2bb-4a08-ace2-4504f33598ee
+	php:S4833	"LReplace "include" with namespace import mechanism through the "use" keyword.(Š¾‹É8Ú€Õ¼Û1J$b310dc8d-a898-47bc-87ad-90ed088dab2d
+	php:S4833O"LReplace "include" with namespace import mechanism through the "use" keyword.(Ú®ã‚8•Ÿ×¼Û1J$91f4c477-db93-45e6-86bd-71af993a8f97
