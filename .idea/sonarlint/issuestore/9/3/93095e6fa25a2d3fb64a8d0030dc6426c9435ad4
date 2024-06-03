@@ -1,6 +1,9 @@
 
-d	php:S1784?"CExplicitly mention the visibility of this method "getNextPlayerID".(ÀÕàşÿÿÿÿ8‰‰ÙåÛ1
->	php:S1780Y"Remove this closing tag "?>".(Ö‘äÏúÿÿÿÿ8ä‘çÚ1
-‰	php:S1488;"hImmediately return this expression instead of assigning it to the temporary variable "$activePlayerIDs".(Æ§ÔØıÿÿÿÿ8”¦æÛ1
-~	php:S4144"bUpdate this method so that its implementation is not identical to "findUserByUsername" on line 19.(Áöó8»Ï‚èÚ1
-r	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(úò­±ûÿÿÿÿ8ä‘çÚ1
+‚	php:S1131Z"@Remove the useless trailing whitespaces at the end of this line.(ä¶Š£8…øÕı1J$e1dd115b-0eb0-442f-b2ca-0231d9209e3d
+Š	php:S1784B"CExplicitly mention the visibility of this method "getNextPlayerID".(ÀÕàşÿÿÿÿ8…øÕı1J$33cad2b8-8135-42a8-bd0b-0ac8b752674c
+d	php:S1780p"Remove this closing tag "?>".(Ö‘äÏúÿÿÿÿ8†øÕı1J$bf4fc3b2-f8d8-4b09-9408-29171d77ff36
+¯	php:S1488>"hImmediately return this expression instead of assigning it to the temporary variable "$activePlayerIDs".(Æ§ÔØıÿÿÿÿ8‡øÕı1J$d34179f1-04da-49f6-9e23-45643f86e4e4
+€	php:S1068"9Remove this unused "$propertiesRepository" private field.(È­Íêüÿÿÿÿ8ß¼Öı1J$8b6342fd-4972-494e-914b-cc59967f2e4d
+¤	php:S4144"bUpdate this method so that its implementation is not identical to "findUserByUsername" on line 22.(Áöó8‡øÕı1J$1108f281-58d5-45d2-a02d-89e56bee969c
+˜	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(úò­±ûÿÿÿÿ8‰øÕı1J$c28957c1-7321-49c2-9e95-580ff7d77963
+“	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(»İÅ8œ™‘Õı1J$54a14f7d-ecbf-4b08-a4e0-3821d5b365d8

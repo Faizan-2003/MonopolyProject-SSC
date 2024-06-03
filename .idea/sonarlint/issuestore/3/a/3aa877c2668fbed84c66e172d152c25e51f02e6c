@@ -1,7 +1,7 @@
 
-,Web:MouseEventWithoutKeyboardEquivalentCheck2"BAdd a 'onKeyPress|onKeyDown|onKeyUp' attribute to this <span> tag.(à»îå8–°±ôü1
-ß	Web:S68482"ÂAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(à»îå8˜°±ôü1
-B	php:S2003	"&Replace "include" with "include_once".(Š¾‹É8Ú€Õ¼Û1
-B	php:S2003O"&Replace "include" with "include_once".(Ú®ã‚8•Ÿ×¼Û1
-h	php:S4833	"LReplace "include" with namespace import mechanism through the "use" keyword.(Š¾‹É8Ú€Õ¼Û1
-h	php:S4833O"LReplace "include" with namespace import mechanism through the "use" keyword.(Ú®ã‚8•Ÿ×¼Û1
+§,Web:MouseEventWithoutKeyboardEquivalentCheck-"BAdd a 'onKeyPress|onKeyDown|onKeyUp' attribute to this <span> tag.(à»îå8–°±ôü1J$cb63340a-7a6b-431d-b3cc-0089ecd1f7bc
+…	Web:S6848-"ÂAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(à»îå8˜°±ôü1J$6ddc39e7-6bbb-46de-9426-40e5a3d7a4c1
+h	php:S2003	"&Replace "include" with "include_once".(Š¾‹É8Ú€Õ¼Û1J$4a237cbd-7283-4e75-b7a5-2f0e235552da
+h	php:S2003D"&Replace "include" with "include_once".(Ú®ã‚8•Ÿ×¼Û1J$b70adb1d-f8f6-4c8b-a09f-15032e1ee6b0
+	php:S4833	"LReplace "include" with namespace import mechanism through the "use" keyword.(Š¾‹É8Ú€Õ¼Û1J$9cff8674-8754-416f-939a-708c1a94aed1
+	php:S4833D"LReplace "include" with namespace import mechanism through the "use" keyword.(Ú®ã‚8•Ÿ×¼Û1J$0f549214-3794-4af2-97d9-8fa70f2e4c51

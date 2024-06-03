@@ -18,4 +18,24 @@ class PropertiesService
     {
         return $this->propertiesRepository->getAllProperties();
     }
+    public function getPropertyById($propertyId)
+    {
+        return $this->propertiesRepository->getPropertyById($propertyId);
+    }
+    public function removePropertyFromAllUsers($propertyId)
+    {
+        return $this->propertiesRepository->removePropertyFromAllUsers($propertyId);
+    }
+    public function assignPropertyToUser($userId, $propertyId)
+    {
+        return $this->propertiesRepository->assignPropertyToUser($userId, $propertyId);
+    }
+    public function getproperties()
+    {
+        return $this->propertiesRepository->getproperties();
+    }
+    public function getPropertyDetailsWithUsername()
+    {
+        return $this->propertiesRepository->getPropertyDetailsWithUsername();
+    }
 }

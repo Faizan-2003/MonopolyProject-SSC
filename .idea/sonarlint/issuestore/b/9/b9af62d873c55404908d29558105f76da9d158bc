@@ -1,7 +1,8 @@
 
-\	php:S1131"@Remove the useless trailing whitespaces at the end of this line.(úšè‡8é£¡ÁÛ1
-fphp:S103"KSplit this 143 characters long line (which is greater than 120 authorized).(Í—¦ç8¿†¿Û1
-g	php:S1784"FExplicitly mention the visibility of this method "getPropertyDetails".(Şñˆøúÿÿÿÿ8ôÎ¼Û1
->	php:S17804"Remove this closing tag "?>".(Ö‘äÏúÿÿÿÿ8ôÎ¼Û1
-‰	php:S1488"hImmediately return this expression instead of assigning it to the temporary variable "$propertyDetails".(òªóúÿÿÿÿ8ôÎ¼Û1
-r	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(úò­±ûÿÿÿÿ8àÆ¼Û1
+‚	php:S1131"@Remove the useless trailing whitespaces at the end of this line.(úšè‡8©ªØı1J$09fac2f2-3437-445a-a5f4-46798cc30d56
+‚	php:S1131"@Remove the useless trailing whitespaces at the end of this line.(úšè‡8©ªØı1J$f5b0bc7d-f4eb-4d43-aa82-55567fc8a379
+	php:S1784"FExplicitly mention the visibility of this method "getPropertyDetails".(Şñˆøúÿÿÿÿ8«ªØı1J$e7a51919-45ef-4b44-be6f-464af5e1b6d6
+d	php:S1780G"Remove this closing tag "?>".(Ö‘äÏúÿÿÿÿ8¬ªØı1J$6142733d-1a4b-48bb-91d7-41ac174441a7
+¯	php:S1488"hImmediately return this expression instead of assigning it to the temporary variable "$propertyDetails".(òªóúÿÿÿÿ8¬ªØı1J$bb5defb4-9777-4118-81af-cad6f0c0d7b5
+¯	php:S1488."hImmediately return this expression instead of assigning it to the temporary variable "$propertyDetails".(òªóúÿÿÿÿ8¬ªØı1J$ce1bee4d-0da9-4c2f-a353-ca73af859e84
+˜	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(úò­±ûÿÿÿÿ8­ªØı1J$e4f13649-7f3c-4054-9760-7e2585bfff3e

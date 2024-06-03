@@ -1,4 +1,5 @@
 // Wait for the DOM to be fully loaded before accessing elements
+// Wait for the DOM to be fully loaded before accessing elements
 document.addEventListener('DOMContentLoaded', function() {
     // Get the form and message elements
     var form = document.getElementById('name');
@@ -12,7 +13,6 @@ document.addEventListener('DOMContentLoaded', function() {
         var name = document.getElementById('name').value;
         var poppet = document.getElementById('poppet').value;
 
-
         // Example: Display a message
         message.innerText = 'User added successfully!';
 
@@ -20,6 +20,9 @@ document.addEventListener('DOMContentLoaded', function() {
         window.location.href = '/home';
     });
 });
+
+// The rest of your JavaScript code...
+
 // Wait for the DOM to be fully loaded before accessing elements
 document.addEventListener('DOMContentLoaded', function() {
     // Get all property cells
@@ -65,9 +68,6 @@ function fetchPropertyDetails(propertyId) {
     });
 }
 
-// Function to display the popup with property details
-// Function to display the popup with property details
-// Function to display the popup with property details
 function displayPopup(propertyName, propertyId) {
     // Fetch property details including fines
     fetchPropertyDetails(propertyId)
@@ -150,4 +150,117 @@ function finishTurn() {
             console.error('Error finishing turn:', error);
         });
 }
+document.addEventListener("DOMContentLoaded", function() {
+    const forms = document.querySelectorAll(".updateBalanceForm");
 
+    forms.forEach(form => {
+        form.addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent default form submission
+
+            const formData = new FormData(this);
+            const userId = this.dataset.userid;
+            const messageDiv = document.getElementById(`updateMessage-${userId}`);
+
+            fetch('/updatebalance', {
+                method: 'POST',
+                body: formData
+            })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok.');
+                    }
+                    return response.text();
+                })
+                .then(data => {
+                    // Display success message
+                    messageDiv.textContent = 'Balance updated successfully.';
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    // Display error message
+                    messageDiv.textContent = 'An error occurred while updating balance.';
+                });
+        });
+    });
+
+    // Handle the assign property form via AJAX
+    document.getElementById("assignPropertyForm").addEventListener("submit", function(event) {
+        event.preventDefault(); // Prevent default form submission
+
+        const formData = new FormData(this);
+
+        fetch('/assignproperty', {
+            method: 'POST',
+            body: formData
+        })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok.');
+                }
+                return response.json(); // Parse JSON response
+            })
+            .then(data => {
+                if (data.status === 'success') {
+                    // Display success message or update UI if needed
+                    console.log('Property assigned successfully:', data.message);
+                    alert('Property assigned successfully.');
+
+                    // Optionally, update the UI to reflect the changes without reloading the page
+                    // You can dynamically update the property owner here
+                } else {
+                    throw new Error(data.message);
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('An error occurred while assigning the property. Please try again.');
+            });
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    const deleteUserForm = document.getElementById("deleteUserForm");
+
+    deleteUserForm.addEventListener("submit", function(event) {
+        event.preventDefault(); // Prevent default form submission
+
+        const formData = new FormData(this);
+
+        fetch('/deleteuser', {
+            method: 'POST',
+            body: formData
+        })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok.');
+                }
+                return response.text();
+            })
+            .then(data => {
+                // Handle success (optional)
+                console.log('User deleted successfully:', data);
+                // Reload the page or update UI as needed
+                window.location.reload();
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                // Display error message or handle error accordingly (optional)
+            });
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Get all color change buttons
+    const colorChangeButtons = document.querySelectorAll('.color-change-btn');
+
+    // Add click event listeners to each button
+    colorChangeButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            // Get the parent row (tr element)
+            const row = this.closest('tr');
+
+            // Change the background color of the row to red
+            row.style.backgroundColor = 'red';
+        });
+    });
+});

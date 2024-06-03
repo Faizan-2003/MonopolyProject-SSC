@@ -259,3 +259,75 @@ form input[type="button"]:hover {
     font-size: 30px;
     margin-bottom: 20px;
 }
+#assignPropertyForm {
+    margin-top: 20px;
+
+    margin-left: 500px;
+}
+
+#assignPropertyForm select {
+    padding: 8px;
+    margin: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#assignPropertyForm button {
+    padding: 8px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#assignPropertyForm button:hover {
+    background-color: #0056b3;
+}
+
+
+.update{
+    padding: 8px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.update:hover {
+    background-color: #0056b3;
+}
+
+#deleteUserForm {
+    margin-top: 20px;
+
+    margin-left: 500px;
+}
+#deleteUserForm select {
+    padding: 8px;
+    margin: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#deleteUserForm button {
+    padding: 8px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#deleteUserForm button:hover {
+    background-color: #0056b3;
+}
+.red-background {
+    background-color: red !important;
+}

@@ -1,8 +1,11 @@
 
->	php:S1780"Remove this closing tag "?>".(Ö‘äÏúÿÿÿÿ8¥Ş¬ãÛ1
-vphp:S116"[Rename this field "$PropertiesService" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(‡Äî«8­Ş¬ãÛ1
-{php:S117"aRename this parameter "$PropertiesService" to match the regular expression ^[a-z_][a-zA-Z0-9_]*$.(ƒûÖJ8­Ş¬ãÛ1
-[	php:S1481
-":Remove this unused "$additionalproperties" local variable.(ëõ÷œşÿÿÿÿ8­Ş¬ãÛ1
-B	php:S2003"&Replace "require" with "require_once".(ËÉ®Æ8­Ş¬ãÛ1
-h	php:S4833"LReplace "require" with namespace import mechanism through the "use" keyword.(ËÉ®Æ8­Ş¬ãÛ1
+d	php:S17808"Remove this closing tag "?>".(Ö‘äÏúÿÿÿÿ8©äìÕı1J$ba07a7ee-a76b-4d79-a2f8-688acbff87ac
+u	php:S1481"3Remove this unused "$allproperties" local variable.(öŒÄè8·ÅØı1J$708151da-f6b3-4914-8777-8b4aa400fc00
+r	php:S1481"+Remove this unused "$users" local variable.(¬È½®øÿÿÿÿ8îÎïÖı1J$728f81d5-22b0-4838-8de0-b9b2b5f38698
+w	php:S1481"0Remove this unused "$properties" local variable.(öŸÉşûÿÿÿÿ8îÎïÖı1J$6e639452-6885-422e-93d6-31438d4a5518
+h	php:S2003"&Replace "require" with "require_once".(±×ª³8óÎïÖı1J$d9cebfad-73fa-474e-bfa9-9e87299cd574
+“	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(®§İ…8¬äìÕı1J$bf785e56-6167-4b21-bcc7-34a4e50e4a13
+“	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(˜Ë‰Ã8·œ¬Öı1J$82f3f226-2c9a-4758-b36d-67610e24c4c0
+“	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(‘¯Å‚8·œ¬Öı1J$ec6974d6-323c-4593-89fd-9ca6f2a45915
+“	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(ú²³Í8·œ¬Öı1J$4b9e8dcc-caf9-477e-b7de-68665b4256fb
+	php:S4833"LReplace "require" with namespace import mechanism through the "use" keyword.(±×ª³8õÎïÖı1J$f5f68ca3-8897-4196-b243-03a69ac3788d

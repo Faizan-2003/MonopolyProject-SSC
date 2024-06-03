@@ -1,7 +1,7 @@
 
-B	php:S2003
-"&Replace "include" with "include_once".(Š¾‹É8è£¸áÛ1
-B	php:S2003'"&Replace "include" with "include_once".(Ú®ã‚8ŠØ¨âÛ1
-h	php:S4833
-"LReplace "include" with namespace import mechanism through the "use" keyword.(Š¾‹É8è£¸áÛ1
-h	php:S4833'"LReplace "include" with namespace import mechanism through the "use" keyword.(Ú®ã‚8ŠØ¨âÛ1
+h	php:S2003
+"&Replace "include" with "include_once".(Š¾‹É8è£¸áÛ1J$b964b895-d512-4b53-976b-b80397adf3fc
+h	php:S2003'"&Replace "include" with "include_once".(Ú®ã‚8ŠØ¨âÛ1J$0adcc671-4e19-4dfb-8f00-8dc65f07a7ce
+Ž	php:S4833
+"LReplace "include" with namespace import mechanism through the "use" keyword.(Š¾‹É8è£¸áÛ1J$3a881584-76ab-47d6-94d0-1e8347c18c56
+Ž	php:S4833'"LReplace "include" with namespace import mechanism through the "use" keyword.(Ú®ã‚8ŠØ¨âÛ1J$b77b762f-bbfb-41c8-aa23-22e232bd4838

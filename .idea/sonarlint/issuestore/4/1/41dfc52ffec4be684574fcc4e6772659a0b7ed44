@@ -1,9 +1,7 @@
 
-TWeb:TableWithoutCaptionCheck" Add a description to this table.(Ã‘Å²øÿÿÿÿ8ÿœœãÛ1
-3php:S113"'Add a new line at the end of this file.
-B	php:S2003
-"&Replace "include" with "include_once".(Š¾‹É8³°®çÚ1
-B	php:S2003&"&Replace "include" with "include_once".(Ú®ã‚8 œãÛ1
-h	php:S4833
-"LReplace "include" with namespace import mechanism through the "use" keyword.(Š¾‹É8³°®çÚ1
-h	php:S4833&"LReplace "include" with namespace import mechanism through the "use" keyword.(Ú®ã‚8 œãÛ1
+h	php:S2003
+"&Replace "include" with "include_once".(Š¾‹É8ë÷€Üı1J$7411f9e3-fe67-4e6b-b990-5854c462528b
+i	php:S2003‰"&Replace "include" with "include_once".(Ú®ã‚8ì÷€Üı1J$da4c39c7-9d0b-461f-9587-90ce0149c912
+	php:S4833
+"LReplace "include" with namespace import mechanism through the "use" keyword.(Š¾‹É8ì÷€Üı1J$b7a28960-ebe8-453c-8200-e374d594d234
+	php:S4833‰"LReplace "include" with namespace import mechanism through the "use" keyword.(Ú®ã‚8ì÷€Üı1J$f66fe29a-1f91-40b0-9651-8b23fe4ba516

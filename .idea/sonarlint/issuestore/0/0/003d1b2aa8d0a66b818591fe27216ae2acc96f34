@@ -1,6 +1,6 @@
 
->	php:S1780#"Remove this closing tag "?>".(Ö‘äÏúÿÿÿÿ8ßÏ…ñØ1
-:php:S113"'Add a new line at the end of this file.8ßÏ…ñØ1
-B	php:S2003"&Replace "require" with "require_once".(‰œ¦º8àÏ…ñØ1
-m	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(‘¯Å‚8Å‘‰ÑØ1
-h	php:S4833"LReplace "require" with namespace import mechanism through the "use" keyword.(‰œ¦º8àÏ…ñØ1
+d	php:S1780#"Remove this closing tag "?>".(Ö‘äÏúÿÿÿÿ8ßÏ…ñØ1J$fea32d77-656b-4b01-99b5-5624c2b82d19
+`php:S113"'Add a new line at the end of this file.8ßÏ…ñØ1J$1347fd76-3ce6-4930-a54d-e814ed96c703
+h	php:S2003"&Replace "require" with "require_once".(‰œ¦º8àÏ…ñØ1J$804296b5-67eb-4802-b0ba-545fac2bee15
+“	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(‘¯Å‚8Å‘‰ÑØ1J$5409bc76-8068-4bf4-b674-6373a8156c58
+Ž	php:S4833"LReplace "require" with namespace import mechanism through the "use" keyword.(‰œ¦º8àÏ…ñØ1J$1b81fd70-7032-424a-afb3-43770a130214
