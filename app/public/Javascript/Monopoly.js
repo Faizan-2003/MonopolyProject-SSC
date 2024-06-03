@@ -249,3 +249,18 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+    // Get all color change buttons
+    const colorChangeButtons = document.querySelectorAll('.color-change-btn');
+
+    // Add click event listeners to each button
+    colorChangeButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            // Get the parent row (tr element)
+            const row = this.closest('tr');
+
+            // Change the background color of the row to red
+            row.style.backgroundColor = 'red';
+        });
+    });
+});

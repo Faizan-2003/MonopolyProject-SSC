@@ -31,19 +31,21 @@
         <th>Property Name</th>
         <th>Property Cost</th>
         <th>Owner Name</th>
+        <th>Action</th> <!-- New column for the button -->
     </tr>
     </thead>
     <tbody>
-    <div id="property-details"></div>
     <?php foreach ($allproperties as $property): ?>
         <tr>
-            <td <?php echo $property['propertyID'] ?? ''; ?>"><?php echo $property['propertyName'] ?? '[Property Name Unavailable]'; ?></td>
+            <td><?php echo $property['propertyName'] ?? '[Property Name Unavailable]'; ?></td>
             <td>$<?php echo $property['propertyPrice'] ?? '---'; ?></td>
             <td><?php echo $property['OwnerName'] ?? '---'; ?></td>
+            <td><button class="color-change-btn">Change Color</button></td> <!-- Button to change color -->
         </tr>
     <?php endforeach; ?>
     </tbody>
 </table>
+
 
 
 <br>

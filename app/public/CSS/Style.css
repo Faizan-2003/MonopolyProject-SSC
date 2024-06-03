@@ -328,3 +328,6 @@ form input[type="button"]:hover {
 #deleteUserForm button:hover {
     background-color: #0056b3;
 }
+.red-background {
+    background-color: red !important;
+}
