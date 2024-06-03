@@ -25,6 +25,26 @@
     </select>
     <button type="submit">Delete User</button>
 </form>
+<table class="second-table">
+    <thead>
+    <tr>
+        <th>Property Name</th>
+        <th>Property Cost</th>
+        <th>Owner Name</th>
+    </tr>
+    </thead>
+    <tbody>
+    <div id="property-details"></div>
+    <?php foreach ($allproperties as $property): ?>
+        <tr>
+            <td <?php echo $property['propertyID'] ?? ''; ?>"><?php echo $property['propertyName'] ?? '[Property Name Unavailable]'; ?></td>
+            <td>$<?php echo $property['propertyPrice'] ?? '---'; ?></td>
+            <td><?php echo $property['OwnerName'] ?? '---'; ?></td>
+        </tr>
+    <?php endforeach; ?>
+    </tbody>
+</table>
+
 
 <br>
 
@@ -56,9 +76,46 @@
     </tbody>
 </table>
 <br>
-<h2>Assign Property</h2>
+<h2>List of Properties and Costs</h2>
+
+<table class="properties-table">
+    <thead>
+    <tr>
+        <th>Property Name</th>
+        <th>Property Cost</th>
+        <th>Property Rent</th>
+        <th>One House</th>
+        <th>Two House</th>
+        <th>Three House</th>
+        <th>Four House</th>
+        <th>Hotel Rent</th>
+        <th>Mortgage Value</th>
+        <th>Building Cost</th>
+
+    </tr>
+    </thead>
+    <tbody>
+    <div id="property-details"></div>
+    <?php foreach ($properties as $property): ?>
+        <tr>
+            <td <?php echo $property['propertyID'] ?? ''; ?>"><?php echo $property['propertyName'] ?? '[Property Name Unavailable]'; ?></td>
+            <td>$<?php echo $property['propertyPrice'] ?? '---'; ?></td>
+            <td><?php echo $property['propertyRent'] ?? '---'; ?></td>
+            <td><?php echo $property['oneHouse'] ?? '---'; ?></td>
+            <td><?php echo $property['twoHouse'] ?? '---'; ?></td>
+            <td><?php echo $property['threeHouse'] ?? '---'; ?></td>
+            <td><?php echo $property['fourHouses'] ?? '---'; ?></td>
+            <td><?php echo $property['hotelRent'] ?? '---'; ?></td>
+            <td><?php echo $property['mortgageValue'] ?? '---'; ?></td>
+            <td><?php echo $property['buildingCost'] ?? '---'; ?></td>
+        </tr>
+    <?php endforeach; ?>
+    </tbody>
+</table>
+<br>
 
 <form id="assignPropertyForm">
+    <h2>Assign Property</h2>
     <select name="userID">
         <?php foreach ($users as $user): ?>
             <option value="<?php echo $user['userID']; ?>"><?php echo $user['userName']; ?></option>
@@ -73,24 +130,7 @@
 </form>
 
 
-<table class="second-table">
-    <thead>
-    <tr>
-        <th>Property Name</th>
-        <th>Property Cost</th>
-        <th>Owner Name</th>
-    </tr>
-    </thead>
-    <tbody>
-    <?php foreach ($additionalproperties as $property): ?>
-        <tr>
-            <td><?php echo $property['propertyName'] ?? '[Property Name Unavailable]'; ?></td>
-            <td>$<?php echo $property['propertyPrice'] ?? '---'; ?></td>
-            <td><?php echo $property['OwnerName'] ?? '---'; ?></td>
-        </tr>
-    <?php endforeach; ?>
-    </tbody>
-</table>
+
 <script>
     <?php include __DIR__ . '/../public/Javascript/Monopoly.js'; ?>
 </script>

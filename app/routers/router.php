@@ -72,6 +72,9 @@ class router
                 $controller = new AdminPortalController(new PropertiesService(new PropertiesRepository()), new UserService(new UserRepository()));
                 $controller->deleteUser($_POST);
                 break;
+            case 'api/getpropertydetails':
+                require __DIR__ . '/../api/getPropertyDetails.php';
+                break;
             default:
                 http_response_code(404);
                 break;

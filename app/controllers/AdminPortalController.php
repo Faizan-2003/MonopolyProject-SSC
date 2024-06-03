@@ -14,9 +14,9 @@ class AdminPortalController {
     }
 
     public function displayAdminPortal(): void {
-        $additionalproperties = $this->propertiesService->getAllProperties();
+        $allproperties = $this->propertiesService->getAllProperties();
         $users = $this->userService->getAllUsers();
-        $properties = $this->propertiesService->getproperties(); // Fetch all properties
+        $properties = $this->propertiesService->getproperties();
 
         require __DIR__ . '/../views/AdminPortal.php';
     }

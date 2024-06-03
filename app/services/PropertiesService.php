@@ -34,4 +34,8 @@ class PropertiesService
     {
         return $this->propertiesRepository->getproperties();
     }
+    public function getPropertyDetailsWithUsername()
+    {
+        return $this->propertiesRepository->getPropertyDetailsWithUsername();
+    }
 }

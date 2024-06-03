@@ -25,6 +25,16 @@ class PropertiesRepository extends Repository {
         $stmt->execute();
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
+    public function getPropertyDetailsWithUsername() {
+        $query = "SELECT p.propertyName, p.propertyPrice, u.userName AS OwnerName 
+              FROM Properties p
+              LEFT JOIN User u ON p.userID = u.userID";
+        $statement = $this->connection->prepare($query);
+        $statement->execute();
+        return $statement->fetch(PDO::FETCH_ASSOC);
+    }
+
+
     public function getPropertyById($propertyId) {
         // Perform a database query to fetch property details by property ID
         $query = "SELECT propertyName, userID         FROM Properties

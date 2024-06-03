@@ -1,4 +1,5 @@
 // Wait for the DOM to be fully loaded before accessing elements
+// Wait for the DOM to be fully loaded before accessing elements
 document.addEventListener('DOMContentLoaded', function() {
     // Get the form and message elements
     var form = document.getElementById('name');
@@ -12,7 +13,6 @@ document.addEventListener('DOMContentLoaded', function() {
         var name = document.getElementById('name').value;
         var poppet = document.getElementById('poppet').value;
 
-
         // Example: Display a message
         message.innerText = 'User added successfully!';
 
@@ -20,6 +20,9 @@ document.addEventListener('DOMContentLoaded', function() {
         window.location.href = '/home';
     });
 });
+
+// The rest of your JavaScript code...
+
 // Wait for the DOM to be fully loaded before accessing elements
 document.addEventListener('DOMContentLoaded', function() {
     // Get all property cells
@@ -65,9 +68,6 @@ function fetchPropertyDetails(propertyId) {
     });
 }
 
-// Function to display the popup with property details
-// Function to display the popup with property details
-// Function to display the popup with property details
 function displayPopup(propertyName, propertyId) {
     // Fetch property details including fines
     fetchPropertyDetails(propertyId)

@@ -15,11 +15,6 @@
 <h2>Name: <?php echo $user['userName'] ?? '[Name Unavailable]'; ?></h2>
 <h2>Amount Money: $<?php echo $user['balanceAmount'] ?? '---'; ?></h2>
 
-<?php if ($currentPlayerID == $userID): ?>
-    <div id="turn-message" class="turn-message"><h3><strong>It's your turn!</strong></h3></div>
-    <button class="btn-primary-finish" onclick="finishTurn()">Finish Turn</button>
-<?php endif; ?>
-
 
 <?php if (!empty($properties)): ?>
     <table>
@@ -50,12 +45,6 @@
         <span class="close-btn" onclick="closePopup()">Close</span>
     </div>
 </div>
-
-<button class="btn-primary" onclick="trade()">Trade</button>
-<button class="btn-primary" onclick="build()">Build</button>
-<button class="btn-primary" onclick="sell()">Sell</button>
-<button class="btn-primary" onclick="mortgage()">Mortgage</button>
-<button class="btn-primary" onclick="redeem()">Redeem</button>
 
 <table class="second-table">
     <thead>
